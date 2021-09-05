@@ -1,4 +1,3 @@
-# Data Structure and Algorithm
 ##### This is Daily update of questions I solve on different platforms like Leetcode, GFG and HackerRank :).  
 
 #### Date - 5 Sep 2021 , ` 1-Question ` ✅
