@@ -1,6 +1,14 @@
 ### Data Structure & Algorithm's Solution 
 ##### This is Daily update of questions, I solve on different platforms like Leetcode, GFG and HackerRank :)
 
+
+#### Date - 8 Sep 2021 , ` 1-Question ` ✅
+|           Question with links                                                     | Difficulty | solve         
+|-----------------------------------------------------------------------------------| ---------- |----------------------
+| #1[Kth Missing Term](https://leetcode.com/problems/kth-missing-positive-number/)|  Easy      |  [code](https://github.com/akhilsharmaa/Data-Structure-Algo-QA/edit/master/LeetCode/Kth%20Missing%20Term/kthMissingTerm.cpp)    
+
+
+
 #### Date - 6 Sep 2021 , ` 1-Question ` ✅
 |           Question with links                                                     | Difficulty | solve         
 |-----------------------------------------------------------------------------------| ---------- |----------------------
