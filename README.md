@@ -1,6 +1,11 @@
 ### Data Structure & Algorithm's Solution 
 ##### This is Daily update of questions, I solve on different platforms like Leetcode, GFG and HackerRank :)
 
+#### Date - 12 Sep 2021 , ` 1-Question ` ✅
+|           Question with links                                                     | Category   | solve         
+|-----------------------------------------------------------------------------------| ---------- |----------------------
+| #1[Container With Most Water](https://leetcode.com/problems/container-with-most-water)         |  D-S       |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/5ed14c8ff74d3765e9e5955ea27e518646112d19/LeetCode/Container%20With%20Most%20Water/Solution.cpp)
+
 #### Date - 11 Sep 2021 , ` 1-Question ` ✅
 |           Question with links                                                     | Category   | solve         
 |-----------------------------------------------------------------------------------| ---------- |----------------------
