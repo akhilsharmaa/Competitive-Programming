@@ -3,10 +3,10 @@
 
 
 #### Date - 12 Sep 2021 , ` 2-Question ` ✅
-|           Question with links                                                     | Category   | solve         
-|-----------------------------------------------------------------------------------| ---------- |----------------------
-| #1[Container With Most Water](https://leetcode.com/problems/container-with-most-water)         |  D-S       |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/5ed14c8ff74d3765e9e5955ea27e518646112d19/LeetCode/Container%20With%20Most%20Water/Solution.cpp)
-| #2[A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem)              | Algo      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HckrRank/A%20Very%20Big%20Sum/BigSum.cpp)
+|           Question with links                                                          | Category   |  Complexity  | solve                                        
+|-----------------------------------------------------------------------------------| ---------- |--------------|---------------------------------------
+| #1[Container With Most Water](https://leetcode.com/problems/container-with-most-water) |  D-S       |    Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/5ed14c8ff74d3765e9e5955ea27e518646112d19/LeetCode/Container%20With%20Most%20Water/Solution.cpp)
+| #2[A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem)              | Algo |   Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HckrRank/A%20Very%20Big%20Sum/BigSum.cpp)
 
 
 #### Date - 11 Sep 2021 , ` 1-Question ` ✅
