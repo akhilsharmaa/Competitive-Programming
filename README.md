@@ -1,6 +1,11 @@
 ### Data Structure & Algorithm's Solution 
 ##### This is Daily update of questions, I solve on different platforms like Leetcode, GFG and HackerRank :)
 
+#### Date - 11 Sep 2021 , ` 1-Question ` ✅
+|           Question with links                                                     | Category   | solve         
+|-----------------------------------------------------------------------------------| ---------- |----------------------
+| #1[Rotate Array](https://leetcode.com/problems/rotate-array/)                     |  D-S       |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Rotate%20Array/rotateArray.cpp)    
+
 
 #### Date - 10 Sep 2021 , ` 4-Question ` ✅ |
 ### Today I become 3⭐ JAVA HackerRank
