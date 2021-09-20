@@ -3,7 +3,7 @@
 
 
 ####  Sep 2021 , ` 3-Question ` ✅
-| Date       |           Question with links                                                           |  Platform   | Category  |    Difficulty   | solve         
+| Date       |           Question                                                                      |  Platform   | Category  |    Difficulty   | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|-----------|-----------------|----------------------
 | 20 Sep     | #2[Merge Sorted Arr](https://leetcode.com/problems/merge-sorted-array/)                 |  Leetcode   |  D-S      |        Easy     |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Merge%20Sorted%20Arr/Solution.cpp)
 | 20 Sep     | #1[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)       |  Leetcode   |  D-S      |        Easy     |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Merge%20Sorted%20Arr/Solution.cpp)
