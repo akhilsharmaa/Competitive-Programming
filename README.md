@@ -2,11 +2,12 @@
 ##### This is Daily update of questions, I solve on different platforms like Leetcode, GFG and HackerRank :)
 
 
-####  Sep 2021 , ` 2-Question ` ✅
-| Date       |           Question with links                                                       |  Platform   | Category   | solve         
-|------------|-------------------------------------------------------------------------------------|-------------| ---------- |----------------------
-| 20 Sep     | #1[Merge Sorted Arr](https://leetcode.com/problems/merge-sorted-array/)             |  Leetcode   |  D-S       |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Merge%20Sorted%20Arr/Solution.cpp)
-| 20 Sep     | #1[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)   |  Leetcode   |  D-S       |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Merge%20Sorted%20Arr/Solution.cpp)
+####  Sep 2021 , ` 3-Question ` ✅
+| Date       |           Question with links                                                           |  Platform   | Category  |    Difficulty   | solve         
+|------------|-----------------------------------------------------------------------------------------|-------------|-----------|-----------------|----------------------
+| 20 Sep     | #2[Merge Sorted Arr](https://leetcode.com/problems/merge-sorted-array/)                 |  Leetcode   |  D-S      |        Easy     |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Merge%20Sorted%20Arr/Solution.cpp)
+| 20 Sep     | #1[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)       |  Leetcode   |  D-S      |        Easy     |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Merge%20Sorted%20Arr/Solution.cpp)
+| 12 Sep     | #1[Container With Most Water](https://leetcode.com/problems/container-with-most-water)  |  Leetcode   |  D-S      |        Medium   |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Container%20With%20Most%20Water/Solution.cpp)
 
 
 #### Date - 12 Sep 2021 , ` 3-Question ` ✅
