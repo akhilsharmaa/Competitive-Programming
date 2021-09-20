@@ -3,9 +3,9 @@
 
 
 #### Date - 20 Sep 2021 , ` 1-Question ` ✅
-| Date       |           Question with links                                                     | Category   | solve         
-|------------|-----------------------------------------------------------------------------------| ---------- |----------------------
-|20 Sep      | #1[Merge Sorted Arr](https://leetcode.com/problems/merge-sorted-array/)          |  D-S       |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Merge%20Sorted%20Arr/Solution.cpp)
+| Date       |           Question with links                                             |  Platform   | Category   | solve         
+|------------|---------------------------------------------------------------------------|-------------| ---------- |----------------------
+| 20 Sep     | #1[Merge Sorted Arr](https://leetcode.com/problems/merge-sorted-array/)   |  Leetcode   |  D-S       |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Merge%20Sorted%20Arr/Solution.cpp)
 
 
 #### Date - 12 Sep 2021 , ` 3-Question ` ✅
