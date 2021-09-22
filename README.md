@@ -5,6 +5,7 @@
 ###  Sep 2021 , ` 14-Question ` ✅
 | Date       |           Question                                                                      |  Platform   | Category  |    Difficulty   | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|-----------|-----------------|---------------------
+| 21 Sep  | [Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)            |  Leetcode   |  D-S      |        Easy   |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Tree%20Inorder%20Traversal/Solution.cpp)
 | 21 Sep  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)            |  Leetcode   |  D-S      |        Medium   |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Add%20Two%20Num/Solution.cpp)
 | 20 Sep  | [Merge Sorted Arr](https://leetcode.com/problems/merge-sorted-array/)                   |  Leetcode   |  D-S      |        Easy     |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Merge%20Sorted%20Arr/Solution.cpp)
 | 20 Sep  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)         |  Leetcode   |  D-S      |        Easy     |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Merge%20Sorted%20Arr/Solution.cpp)
