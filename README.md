@@ -2,7 +2,7 @@
 ##### This is Daily update of questions, I solve on different platforms like Leetcode, GFG and HackerRank :)
 
 
-###  Sep 2021 , ` 14-Question ` ✅
+###  Sep 2021 , ` 15-Question ` ✅
 | Date       |           Question                                                                      |  Platform   | Category  |    Difficulty   | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|-----------|-----------------|---------------------
 | 22 Sep  | [Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)            |  Leetcode   |  D-S      |        Easy   |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Tree%20Inorder%20Traversal/Solution.cpp)
