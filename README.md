@@ -2,9 +2,10 @@
 ##### This is Daily update of questions, I solve on different platforms like Leetcode, GFG and HackerRank :)
 
 
-###  Sep 2021 , ` 16-Question ` ✅
+###  Sep 2021 , ` 17-Question ` ✅
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|---------------------
+| 24 Sep| [Staircase 2D array](https://www.hackerrank.com/challenges/staircase/problem)                | HackerRank |  Algo     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HckrRank/StareCase/StareCase.cpp)
 | 23 Sep  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                        |  Leetcode   |  D-S     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Roman%20To%20Integer/Solution.cpp)
 | 22 Sep  | [Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)      |  Leetcode   |  D-S     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Tree%20Inorder%20Traversal/Solution.cpp)
 | 21 Sep  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                           |  Leetcode   |  D-S     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Add%20Two%20Num/Solution.cpp)
