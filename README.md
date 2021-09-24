@@ -2,7 +2,7 @@
 ##### This is Daily update of questions, I solve on different platforms like Leetcode, GFG and HackerRank :)
 
 
-###  Sep 2021 , ` 17-Question ` ✅
+###  Sep 2021 , ` 18+ ` Question Solved ✅
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|---------------------
 | 24 Sep| [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem)                       | HackerRank |  Algo     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Plus%20Minus%20/Solution.cpp)
