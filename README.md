@@ -5,6 +5,7 @@
 ##  Sep 2021 , ` 20+ ` Question Solved ✅
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
+| 25 Sep| [C++ Function](https://www.hackerrank.com/challenges/c-tutorial-functions/problem)               | HackerRank |  C++     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/C%2B%2B%20Functions/Solution.cpp)
 |            | 2⭐ in C++ HackerRank                                                                                  
 | 25 Sep| [For Loop](https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem)            | HackerRank |  C++     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/For%20Loop/Solution.cpp)
 | 24 Sep| [Mini-Max-Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)                   | HackerRank |  Algo     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Mini-Max%20Sum/Solution.cpp)
