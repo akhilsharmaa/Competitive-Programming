@@ -4,5 +4,9 @@
         "iostream": "cpp",
         "list": "cpp",
         "valarray": "cpp"
-    }
+    },
+    "java.project.sourcePaths": [
+        "HackerRank/For Loop",
+        "HackerRank/Java Substring"
+    ]
 }

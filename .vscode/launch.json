@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Daily Practice QA_8299b2d4"
+        },
+        {
+            "type": "java",
             "name": "Launch ForLoop",
             "request": "launch",
             "mainClass": "ForLoop",
