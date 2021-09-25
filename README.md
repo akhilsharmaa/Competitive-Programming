@@ -2,7 +2,7 @@
 ##### This is Daily update of questions, I solve on different platforms like Leetcode, GFG and HackerRank :)
 
 
-##  Sep 2021 , ` 20+ ` Question Solved ✅
+##  Sep 2021 , ` 21+ ` Question Solved ✅
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
 | 25 Sep| [C++ Function](https://www.hackerrank.com/challenges/c-tutorial-functions/problem)               | HackerRank |  C++     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/C%2B%2B%20Functions/Solution.cpp)
