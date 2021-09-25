@@ -14,7 +14,7 @@ void miniMaxSum(vector<int> arr) {
         if (i != 4){ minNum += arr[i];}
         if (i != 0){ maxNum += arr[i];}
     }
-
+    
     cout<< minNum<< " " << maxNum << endl;   
 
 }

@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch ForLoop",
+            "request": "launch",
+            "mainClass": "ForLoop",
+            "projectName": "Daily Practice QA_8299b2d4"
+        },
+        {
             "name": "g++ - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
