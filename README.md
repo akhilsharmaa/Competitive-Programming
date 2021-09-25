@@ -1,5 +1,5 @@
 ### Data Structure & Algorithm's Solution 
-##### This is Daily update of questions, I solve on different platforms like Leetcode, GFG and HackerRank :)
+This is Daily update of questions that I solve on different platforms like Leetcode, GFG and HackerRank :)
 
 
 ##  Sep 2021 , ` 21+ ` Question Solved ✅
