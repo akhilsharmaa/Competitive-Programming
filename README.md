@@ -2,10 +2,12 @@
 ##### This is Daily update of questions, I solve on different platforms like Leetcode, GFG and HackerRank :)
 
 
-###  Sep 2021 , ` 19+ ` Question Solved ✅
+##  Sep 2021 , ` 20+ ` Question Solved ✅
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
-|------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|---------------------
-| 24 Sep| [Mini-Max-Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)                     | HackerRank |  Algo     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Mini-Max%20Sum/Solution.cpp)
+|------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
+|            | 2⭐ in C++ HackerRank                                                                                  
+| 25 Sep| [For Loop](https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem)            | HackerRank |  C++     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/For%20Loop/Solution.cpp)
+| 24 Sep| [Mini-Max-Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)                   | HackerRank |  Algo     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Mini-Max%20Sum/Solution.cpp)
 | 24 Sep| [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem)                       | HackerRank |  Algo     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Plus%20Minus%20/Solution.cpp)
 | 24 Sep| [Staircase 2D array](https://www.hackerrank.com/challenges/staircase/problem)                | HackerRank |  Algo     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HckrRank/StareCase/StareCase.cpp)
 | 23 Sep  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                        |  Leetcode   |  D-S     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Roman%20To%20Integer/Solution.cpp)
