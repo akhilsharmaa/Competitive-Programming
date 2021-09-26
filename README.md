@@ -2,18 +2,24 @@
 This is Daily update of questions that I solve on different platforms like Leetcode, GFG and HackerRank :)
 
 
-##  Sep 2021 
+##  September 2021 
+
+### Month's ` ACHIVEMENTS ` 
+
+*  1⭐ in Data-Structure on LeetCode - 20 Sep
+*  2⭐ in Problem Solving on HackerRank - 26 Sep
+*  3⭐ in C++ on HackerRank - 26 Sep
+*  3⭐ in Java Language - 10 Sep
+
 ### ` 23+ ` Question Solved :) 
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
-|------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
-|            | 2⭐ in Poblem Solving HackerRank     
+|------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|-------------------- 
 | 26 Sep| [Grading Problem](https://www.hackerrank.com/challenges/grading/problem)                     | HackerRank  |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Algo%20Grading%20Students/Solution.cpp)
 | 26 Sep| [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)             | HackerRank  |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Algo%20-%20Time%20Conversion/Solution.cpp)
 | 25 Sep| [Java Substring](https://www.hackerrank.com/challenges/java-substring/problem)               | HackerRank  |  JAVA    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/C%2B%2B%20Pointers/Solution.cpp)
-|            | 3⭐ in C++ HackerRank                                                                                  
 | 25 Sep| [C++ Array](https://www.hackerrank.com/challenges/c-tutorial-pointer/problem)                | HackerRank  |  C++     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/C%2B%2B%20Pointers/Solution.cpp)
 | 25 Sep| [C++ Pointers](https://www.hackerrank.com/challenges/c-tutorial-pointer/problem)             | HackerRank  |  C++     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/C%2B%2B%20Pointers/Solution.cpp)
-| 25 Sep| [C++ Function](https://www.hackerrank.com/challenges/c-tutorial-functions/problem)           | HackerRank  |  C++     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/C%2B%2B%20Functions/Solution.cpp)                                                                              
+| 25 Sep| [C++ Function](https://www.hackerrank.com/challenges/c-tutorial-functions/problem)           | HackerRank  |  C++     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/C%2B%2B%20Functions/Solution.cpp)                
 | 25 Sep| [For Loop](https://www.hackerrank.com/challenges/c-tutorial-for-loop/problem)                | HackerRank  |  C++     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/For%20Loop/Solution.cpp)
 | 24 Sep| [Mini-Max-Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)                   | HackerRank  |  Algo     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Mini-Max%20Sum/Solution.cpp)
 | 24 Sep| [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem)                       | HackerRank  |  Algo     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Plus%20Minus%20/Solution.cpp)
@@ -27,7 +33,6 @@ This is Daily update of questions that I solve on different platforms like Leetc
 | 12 Sep  | [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem)             |  HackerRank |  D-S     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HckrRank/A%20Very%20Big%20Sum/BigSum.cpp)
 | 12 Sep  | [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem)   |  HackerRank |  D-S     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HckrRank/Diagonal%20Difference/DigDiff.cpp)
 |11 Sep   | [Rotate Array](https://leetcode.com/problems/rotate-array/)                                |   Leetcode  |  D-S     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Rotate%20Array/rotateArray.cpp)   
-|         |   3⭐ in JAVA HackerRank | 
 | 10 Sep  | [Java Int to String](https://www.hackerrank.com/challenges/java-int-to-string/problem)     |  HackerRank  |  JAVA   |  Easy      |  [code](https://github.com/akhilsharmaa/Data-Structure-Algo-QA/blob/master/HackerRank%20Question/JavaIntToString.java)   
 | 10 Sep  | [Java Date & Time](https://www.hackerrank.com/challenges/java-date-and-time/problem)       |  HackerRank  |  JAVA   |  Medium    |  [code](https://github.com/akhilsharmaa/Data-Structure-Algo-QA/blob/master/HackerRank%20Question/javaDateAndTime.java)  
 | 10 Sep  | [Java Strings Intor](https://www.hackerrank.com/challenges/java-strings-introduction/)     |  HackerRank  |  JAVA   |  Easy      |  [code](https://github.com/akhilsharmaa/Data-Structure-Algo-QA/blob/master/HackerRank%20Question/Java%20String%20Intro/Solution.java)   
