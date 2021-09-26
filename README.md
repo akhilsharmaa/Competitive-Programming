@@ -14,6 +14,7 @@ This is Daily update of questions that I solve on different platforms like Leetc
 ### ` 23+ ` Question Solved :) 
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|-------------------- 
+| 26 Sep| [Valid Paranthesis](https://leetcode.com/problems/valid-parentheses/)                        | Leetcode    |  D-S     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Valid%20Parantheses/Solution.cpp)
 | 26 Sep| [Grading Problem](https://www.hackerrank.com/challenges/grading/problem)                     | HackerRank  |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Algo%20Grading%20Students/Solution.cpp)
 | 26 Sep| [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)             | HackerRank  |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Algo%20-%20Time%20Conversion/Solution.cpp)
 | 25 Sep| [Java Substring](https://www.hackerrank.com/challenges/java-substring/problem)               | HackerRank  |  JAVA    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/C%2B%2B%20Pointers/Solution.cpp)
