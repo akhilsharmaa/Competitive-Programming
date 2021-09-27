@@ -6,29 +6,37 @@ using namespace std;
 class Solution {
 public:
     bool isPalindrome(int x) {
+
+        if (x < 0 || x >= 2147483647)
+        {
+            return false;
+        }
         
-        int reverse = 0 , temp = x;
+        
+        long int reverse = 0, temp = x;
         
         while (temp > 0){ 
             int r = temp % 10;
-            reverse  = reverse * 10 + r;
+            reverse  = (reverse * 10 )+ r;
 
             temp /= 10;
         }
 
-        cout<< "Reverse = " << reverse << "  " <<endl;
-        return 0; 
+        // cout<< "Reverse = " << reverse << "  " <<endl;
+        return reverse == x; 
     }
 };
 
 int main(){
 
     Solution s; 
-    cout<<"Input  = 2124"<<endl;
-    bool isPal =  s.isPalindrome(2124);
-    // if (isPal){
-    // cout<<"Yes Palindrom";
-    // }
+    // cout<<"Input  = 2124"<<endl;
+    bool isPal =  s.isPalindrome(303);
+    if (isPal){
+        cout<<"Yes Palindrom";
+    }else{
+        cout<<"No Palindrom";
+    }
     
 
    return 0;
