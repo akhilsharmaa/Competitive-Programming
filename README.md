@@ -7,13 +7,14 @@ This is Daily update of questions that I solve on different platforms like Leetc
 ### Month's ` ACHIVEMENTS ` 
 
 *  1⭐ in Data-Structure on LeetCode - 20 Sep
-*  2⭐ in Problem Solving on HackerRank - 26 Sep
+*  2⭐ in Problem Solving on HackerRank - 26 Sep 
 *  3⭐ in C++ on HackerRank - 26 Sep
 *  3⭐ in Java Language - 10 Sep
 
 ### ` 23+ ` Question Solved :) 
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
-|------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|-------------------- 
+|------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
+| 27 Sep| [Valid Paranthesis](https://leetcode.com/problems/diagonal-traverse/)                        | Leetcode    |  D-S     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Diagonal%20Traverse/Solution.cpp)
 | 26 Sep| [Valid Paranthesis](https://leetcode.com/problems/valid-parentheses/)                        | Leetcode    |  D-S     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Valid%20Parantheses/Solution.cpp)
 | 26 Sep| [Grading Problem](https://www.hackerrank.com/challenges/grading/problem)                     | HackerRank  |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Algo%20Grading%20Students/Solution.cpp)
 | 26 Sep| [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)             | HackerRank  |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Algo%20-%20Time%20Conversion/Solution.cpp)
