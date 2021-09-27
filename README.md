@@ -14,6 +14,7 @@ This is Daily update of questions that I solve on different platforms like Leetc
 ### ` 30+ ` Question Solved :) 
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
+| 27 Sep| [Check Palindrom](https://leetcode.com/problems/palindrome-number/)                          | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Palindrom%20Num/palindrom.cpp)
 | 27 Sep| [Remove-D form Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)     | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Duplicates%20from%20Sorted%20Array/Solution.cpp)
 | 27 Sep| [Matrix Digonal Traversal](https://leetcode.com/problems/diagonal-traverse/)                        | Leetcode    |  D-S     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Diagonal%20Traverse/Solution.cpp)
 | 26 Sep| [Valid Paranthesis](https://leetcode.com/problems/valid-parentheses/)                        | Leetcode    |  D-S     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Valid%20Parantheses/Solution.cpp)
