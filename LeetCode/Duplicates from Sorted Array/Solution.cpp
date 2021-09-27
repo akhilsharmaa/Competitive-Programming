@@ -5,30 +5,19 @@ using namespace std;
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
+        if (nums.size() == 0) 
+            return 0;
 
-        vector<int> tempNums; 
+        int j = 0; 
 
-        int i = 0;
-
-        for (int i = 0; i < nums.size(); i++){
-            int currentEle = nums[i];
-
-            if (nums[i + 1] == currentEle)
-            {   
-                // nums.erase(nums.begin() + (i));
-            }else{
-                tempNums.push_back(nums[i]);
+        for (int i = 0; i < nums.size(); i++){ 
+            if (nums[i] != nums[j]){
+                j ++;
+                nums[j] = nums[i]; 
             }
-            
         }
 
-        nums = tempNums;
-
-        for(auto item: nums){
-        cout << item << ", ";
-        }
-
-        return 0;
+        return j + 1;
     }
 };
 
@@ -36,10 +25,10 @@ public:
 int main(){
 
     // vector<int> a = {0,0,1,1,1,2,2,3,3,4};
-    vector<int> a = {1,1,2};
+    vector<int> a = {1,1,2, 2, 3, 3,3 , 4};
 
     Solution s;
-    s.removeDuplicates(a);   
+    cout<< s.removeDuplicates(a);   
 
 
    return 0;
