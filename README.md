@@ -18,7 +18,7 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 ` 25+  Question Solved `
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
-| 28 Sep| [Kangaroo Jump](https://www.hackerrank.com/challenges/kangaroo)                              | HackerRank  |  Algo    |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Palindrome%20Linked%20List/Solution.cpp)
+| 28 Sep| [Kangaroo Jump](https://www.hackerrank.com/challenges/kangaroo)                              | HackerRank  |  Algo    |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Number%20Line%20Jump/Solution.cpp)
 | 28 Sep| [IsPalindrom Linked-List](https://leetcode.com/problems/palindrome-linked-list/)             | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Palindrome%20Linked%20List/Solution.cpp)
 | 27 Sep| [Remove Duplicate](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)       | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Diagonal%20Traverse/Solution.cpp)
 | 27 Sep| [Matrix Digonal Traversal](https://leetcode.com/problems/diagonal-traverse/)                        | Leetcode    |  D-S     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Diagonal%20Traverse/Solution.cpp)
