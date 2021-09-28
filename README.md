@@ -1,8 +1,5 @@
 <h2 align="center"> Daily update of Problems, I solve with Question with solution Code <a href="">Links</a></h2>
 
-<img  height="150px" src="https://www.venuexplorer.com.sg/uploads/Working%20in%20progresss.gif" alt="">
-
-
     
 ### My profile ID/Link : 
 HackerRank [@akhlisharmaa](https://www.hackerrank.com/akhilsharmaa)     
