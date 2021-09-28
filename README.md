@@ -1,5 +1,10 @@
-### Data Structure & Algorithm's Solution 
-This is Daily update of questions that I solve on different platforms like Leetcode, GFG and HackerRank :)
+<h1 align="center">Data Structure & Algorithm's Problems With Solution Links</h1>
+<h3 align="center"> Daily update of Problems, I solve on Leetcode, HackerRank & GeekForGeeks :) </h3>
+
+
+### Chekout my profile : 
+HackerRank [@akhlisharmaa](https://www.hackerrank.com/akhilsharmaa)     
+LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 
 
 ##  September 2021 
