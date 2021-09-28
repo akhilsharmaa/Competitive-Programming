@@ -1,4 +1,4 @@
-<h2 align="center"> Daily update of Problems, I solve with Question with solution Code <a href="">Links</a></h2>
+<h2 align="center"> Daily update of Problems, I solve with Question with solution Code <a href="https://github.com/akhilsharmaa/Daily-Practice-QA">Links</a></h2>
 
     
 ### My profile ID/Link : 
@@ -49,4 +49,4 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 | 5 Sep   | [Add Sum](https://leetcode.com/problems/two-sum/)                                          | Leetcode     |  D-S    |  Easy      | [code](https://github.com/akhilsharmaa/Data-Structure-Algo-Q-A/blob/master/LeetCode/Two%20Sum%20/two_sum.cpp)     
 
 
-<h3 align="center">Repo was created on 2 Sep, 2021 </h3>
+<h3 align="center"> Maintaining this repositery since September 2021 </h3>
