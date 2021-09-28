@@ -1,22 +1,23 @@
-<h1 align="center">Data Structure & Algorithm's Problems With Solution Links</h1>
-<h3 align="center"> Daily update of Problems, I solve on Leetcode, HackerRank & GeekForGeeks :) </h3>
+<h2 align="center"> Daily update of Problems, I solve with Question with solution Code <a href="">Links</a></h2>
+
+<img  height="150px" src="https://www.venuexplorer.com.sg/uploads/Working%20in%20progresss.gif" alt="">
 
 
-### Chekout my profile : 
+    
+### My profile ID/Link : 
 HackerRank [@akhlisharmaa](https://www.hackerrank.com/akhilsharmaa)     
 LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 
+##  
 
-##  September 2021 
-
-### Month's ` ACHIVEMENTS ` 
+### MY ACHIVEMENTS 
 
 *  1⭐ in Data-Structure on LeetCode - 20 Sep
 *  2⭐ in Problem Solving on HackerRank - 26 Sep 
 *  3⭐ in C++ on HackerRank - 26 Sep
 *  3⭐ in Java Language - 10 Sep
 
-### ` 25+ ` Question Solved :) 
+### September 2021 | 25+  Question Solved :) 
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
 | 28 Sep| [IsPalindrom Linked-List](https://leetcode.com/problems/palindrome-linked-list/)             | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Palindrome%20Linked%20List/Solution.cpp)
@@ -51,3 +52,4 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 | 5 Sep   | [Add Sum](https://leetcode.com/problems/two-sum/)                                          | Leetcode     |  D-S    |  Easy      | [code](https://github.com/akhilsharmaa/Data-Structure-Algo-Q-A/blob/master/LeetCode/Two%20Sum%20/two_sum.cpp)     
 
 
+<h3 align="center">Repo was created on 2 Sep, 2021 </h3>
