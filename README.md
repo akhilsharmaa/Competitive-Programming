@@ -14,7 +14,7 @@ This is Daily update of questions that I solve on different platforms like Leetc
 ### ` 25+ ` Question Solved :) 
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
-| 28 Sep| [IsPalindrom Linked-List](https://leetcode.com/problems/palindrome-linked-list/)             | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Diagonal%20Traverse/Solution.cpp)
+| 28 Sep| [IsPalindrom Linked-List](https://leetcode.com/problems/palindrome-linked-list/)             | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Palindrome%20Linked%20List/Solution.cpp)
 | 27 Sep| [Remove Duplicate](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)       | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Diagonal%20Traverse/Solution.cpp)
 | 27 Sep| [Matrix Digonal Traversal](https://leetcode.com/problems/diagonal-traverse/)                        | Leetcode    |  D-S     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Diagonal%20Traverse/Solution.cpp)
 | 26 Sep| [Valid Paranthesis](https://leetcode.com/problems/valid-parentheses/)                        | Leetcode    |  D-S     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Valid%20Parantheses/Solution.cpp)
