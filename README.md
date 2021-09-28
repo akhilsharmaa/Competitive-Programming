@@ -14,7 +14,8 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 *  3⭐ in C++ on HackerRank 
 *  3⭐ in Java Language 
 
-### September 2021 | 25+  Question Solved :) 
+### September 2021 
+` 25+  Question Solved `
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
 | 28 Sep| [IsPalindrom Linked-List](https://leetcode.com/problems/palindrome-linked-list/)             | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Palindrome%20Linked%20List/Solution.cpp)
