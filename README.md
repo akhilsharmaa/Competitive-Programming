@@ -18,6 +18,7 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 ` 25+  Question Solved `
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
+| 29 Sep| [Reverse Array](https://www.hackerrank.com/challenges/arrays-ds/problem)                       | HackerRank  |  Algo     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Array-DS%20Algo/Solution.cpp)
 | 29 Sep| [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/)                        | HackerRank  |  Algo     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Sparse%20Arrays/Solution.cpp)
 | 29 Sep| [Remove Nth Node from End](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  | LeetCode    |  D-S     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/RemoveNthNode%20from%20End/Solution.cpp)
 | 28 Sep| [Kangaroo Jump](https://www.hackerrank.com/challenges/kangaroo)                              | HackerRank  |  Algo    |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Number%20Line%20Jump/Solution.cpp)
