@@ -18,6 +18,7 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 ` 25+  Question Solved `
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
+| 29 Sep| [Remove Nth Node from End](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  | LeetCode    |  D-s     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/RemoveNthNode%20from%20End/Solution.cpp)
 | 28 Sep| [Kangaroo Jump](https://www.hackerrank.com/challenges/kangaroo)                              | HackerRank  |  Algo    |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Number%20Line%20Jump/Solution.cpp)
 | 28 Sep| [IsPalindrom Linked-List](https://leetcode.com/problems/palindrome-linked-list/)             | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Palindrome%20Linked%20List/Solution.cpp)
 | 27 Sep| [Remove Duplicate](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)       | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Diagonal%20Traverse/Solution.cpp)
