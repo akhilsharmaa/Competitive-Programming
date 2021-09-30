@@ -15,9 +15,10 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 *  3⭐ in Java Language 
 
 ### September 2021 
-` 25+  Question Solved `
+` 40+  Question Solved `
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
+| 30 Sep| [Array Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation)                   | HackerRank  |  Algo     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Left%20Rotation/Solution.cpp)
 | 30 Sep| [2D Array DS](https://www.hackerrank.com/challenges/2d-array/problem)                        | HackerRank  |  Algo     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/2D%20Array%20D-S/Solution.cpp)
 | 29 Sep| [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/)                        | HackerRank  |  Algo     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Sparse%20Arrays/Solution.cpp)
 | 29 Sep| [Remove Nth Node from End](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  | LeetCode    |  D-S     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/RemoveNthNode%20from%20End/Solution.cpp)
