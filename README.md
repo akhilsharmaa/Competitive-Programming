@@ -14,10 +14,12 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 *  3⭐ in C++ on HackerRank 
 *  3⭐ in Java Language 
 
+
 ### September 2021 
 ` 40+  Question Solved `
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
+| 30 Sep| [Print Linked-List](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list)  | HackerRank  |  Algo     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Print%20the%20%20Linked%20List/Solution.cpp)
 | 30 Sep| [Array Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation)                   | HackerRank  |  Algo     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Left%20Rotation/Solution.cpp)
 | 30 Sep| [2D Array DS](https://www.hackerrank.com/challenges/2d-array/problem)                        | HackerRank  |  Algo     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/2D%20Array%20D-S/Solution.cpp)
 | 29 Sep| [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/)                        | HackerRank  |  Algo     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Sparse%20Arrays/Solution.cpp)
@@ -55,4 +57,4 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 | 5 Sep   | [Add Sum](https://leetcode.com/problems/two-sum/)                                          | Leetcode     |  D-S    |  Easy      | [code](https://github.com/akhilsharmaa/Data-Structure-Algo-Q-A/blob/master/LeetCode/Two%20Sum%20/two_sum.cpp)     
 
 
-<p align="center">I have created this repositery on Sep-2021.</p>
+<p align="center">I have created this repository on Sep-2021.</p>
