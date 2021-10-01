@@ -15,15 +15,26 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 *  3⭐ in Java Language 
 
 
-### September 2021 
-` 40+  Question Solved `
+<h2> OCT 2021</h2> 
+
+| Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
+|------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
+| 30 Sep| [Lenght of Last Word String](https://leetcode.com/problems/length-of-last-word/)                      | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Last%20Word%20Lenght/Solution.cpp)
+
+
+
+
+
+<!--//////////////////////////////////////////////////////////////// SEPTEMBER ////////////////////////////////////////////////////////////////////////////  -->
+<h2> SEP 2021, 40+ Questions Solved </h2> 
+
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
 | 30 Sep| [Print Linked-List](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list)  | HackerRank  |  Algo     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Print%20the%20%20Linked%20List/Solution.cpp)
 | 30 Sep| [Array Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation)                   | HackerRank  |  Algo     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Left%20Rotation/Solution.cpp)
 | 30 Sep| [2D Array DS](https://www.hackerrank.com/challenges/2d-array/problem)                        | HackerRank  |  Algo     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/2D%20Array%20D-S/Solution.cpp)
 | 29 Sep| [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/)                        | HackerRank  |  Algo     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Sparse%20Arrays/Solution.cpp)
-| 29 Sep| [Remove Nth Node from End](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  | LeetCode    |  D-S     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/RemoveNthNode%20from%20End/Solution.cpp)
+| 29 Sep| [Remove Nth Node-End](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  | LeetCode    |  D-S     |  Medium    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/RemoveNthNode%20from%20End/Solution.cpp)
 | 28 Sep| [Kangaroo Jump](https://www.hackerrank.com/challenges/kangaroo)                              | HackerRank  |  Algo    |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Number%20Line%20Jump/Solution.cpp)
 | 28 Sep| [IsPalindrom Linked-List](https://leetcode.com/problems/palindrome-linked-list/)             | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Palindrome%20Linked%20List/Solution.cpp)
 | 27 Sep| [Remove Duplicate](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)       | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Diagonal%20Traverse/Solution.cpp)
