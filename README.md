@@ -19,6 +19,7 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
+|  01 Oct     | #03 [Implement StrStr()](https://leetcode.com/problems/implement-strstr/)              | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Implement%20strStr()/Solution.cpp)
 |  01 Oct     | #02 [Dynamic Array](https://www.hackerrank.com/challenges/dynamic-array)                    | HackerRank  |  Algo    |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Last%20Word%20Lenght/Solution.cpp)
 |  01 Oct     | #01 [Lenght of Last Word String](https://leetcode.com/problems/length-of-last-word/)        | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Last%20Word%20Lenght/Solution.cpp)
 
