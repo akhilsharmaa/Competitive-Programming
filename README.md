@@ -19,7 +19,7 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
-| 30 Sep| [Lenght of Last Word String](https://leetcode.com/problems/length-of-last-word/)                      | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Last%20Word%20Lenght/Solution.cpp)
+|  1 Oct     | [Lenght of Last Word String](https://leetcode.com/problems/length-of-last-word/)                      | Leetcode    |  D-S     |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Last%20Word%20Lenght/Solution.cpp)
 
 
 
