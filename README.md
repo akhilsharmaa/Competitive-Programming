@@ -9,10 +9,10 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 
 ### MY ACHIVEMENTS 
 
-*  1⭐ in Data-Structure on LeetCode 
-*  2⭐ in Problem Solving on HackerRank 
-*  3⭐ in C++ on HackerRank 
-*  3⭐ in Java Language 
+*  ⭐ in Data-Structure on LeetCode 
+*  ⭐⭐⭐ in Problem Solving on HackerRank 
+*  ⭐⭐⭐ in C++ on HackerRank 
+*  ⭐⭐⭐ in Java on HackerRank 
 
 
 <h2> OCT 2021</h2> 
