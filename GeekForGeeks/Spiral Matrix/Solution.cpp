@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// NOT ACCEPTED :) 
 class Solution{
 
 	public:
