@@ -19,6 +19,7 @@ LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
 
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
+|  14 Oct    | #13 [Sort Stack](https://practice.geeksforgeeks.org/problems/sort-a-stack/1)            |     GFG     |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/Sorted%20Stack/SortedStack.cpp)
 |  14 Oct    | #12 [Intermediate Smaller](https://practice.geeksforgeeks.org/problems/immediate-smaller-element1142/1)| GFG|  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/Immediate%20Small%20Ele%20/InterSmall.cpp)
 |  14 Oct    | #11 [Min Stack](https://leetcode.com/problems/min-stack/)                               | Leetcode    |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Min%20Stack/MinStack.cpp)
 |  07 Oct    | #10 [Same Tree](https://leetcode.com/problems/same-tree/)                               | Leetcode    |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Same%20Tree/SameTree.cpp)
