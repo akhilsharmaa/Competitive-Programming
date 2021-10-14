@@ -3,16 +3,16 @@
     
 ### My profile ID/Link : 
 HackerRank [@akhlisharmaa](https://www.hackerrank.com/akhilsharmaa)     
-LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
+LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)      
+GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)
 
-##  
 
-### MY ACHIVEMENTS 
-
-*  ⭐ in Data-Structure on LeetCode 
-*  ⭐⭐⭐ in Problem Solving on HackerRank 
-*  ⭐⭐⭐ in C++ on HackerRank 
-*  ⭐⭐⭐ in Java on HackerRank 
+|  Rank        |   Platform    | Category
+|--------------|---------------|-----------------------
+|  #1 ⭐       |   LeetCode    | Data-Structure 
+|  #3 ⭐       |   HackerRank  | Problem Solving 
+|  #3 ⭐       |   HackerRank  | C++ Language
+|  #3 ⭐       |   HackerRank  | Java Language 
 
 
 <h2> OCT 2021</h2> 
