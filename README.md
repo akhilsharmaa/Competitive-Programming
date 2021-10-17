@@ -3,23 +3,23 @@
     
 ### My profile ID/Link : 
 HackerRank [@akhlisharmaa](https://www.hackerrank.com/akhilsharmaa)     
-LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)
+LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)      
+GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)
 
-##  
 
-### MY ACHIVEMENTS 
-
-*  ⭐ in Data-Structure on LeetCode 
-*  ⭐⭐⭐ in Problem Solving on HackerRank 
-*  ⭐⭐⭐ in C++ on HackerRank 
-*  ⭐⭐⭐ in Java on HackerRank 
+|  Rank        |   Platform    | Category
+|--------------|---------------|-----------------------
+|  #1 ⭐       |   LeetCode    | Data-Structure 
+|  #3 ⭐       |   HackerRank  | Problem Solving 
+|  #3 ⭐       |   HackerRank  | C++ Language
+|  #3 ⭐       |   HackerRank  | Java Language 
 
 
 <h2> OCT 2021</h2> 
 
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
-|  14 Oct    | #14 [Middle Of Linked List](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list) |     GFG     |  Algo    |  Easy   |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/Sorted%20Stack/SortedStack.cpp)
+|  14 Oct    | #14 [Middle Of Linked List](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list) |     GFG     |  Algo    |  Easy   |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/FindMiddleLinkedList/FindLink.cpp)
 |  13 Oct    | #13 [Sort Stack](https://practice.geeksforgeeks.org/problems/sort-a-stack/1)            |     GFG     |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/Sorted%20Stack/SortedStack.cpp)
 |  13 Oct    | #12 [Intermediate Smaller](https://practice.geeksforgeeks.org/problems/immediate-smaller-element1142/1)| GFG|  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/Immediate%20Small%20Ele%20/InterSmall.cpp)
 |  13 Oct    | #11 [Min Stack](https://leetcode.com/problems/min-stack/)                               | Leetcode    |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Min%20Stack/MinStack.cpp)
