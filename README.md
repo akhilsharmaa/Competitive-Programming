@@ -15,16 +15,17 @@ GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)
 |  #3 ⭐       |   HackerRank  | Java Language 
 
 
-<h2> OCT 2021</h2> 
+<h2> OCT 2021</h2>  
 
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
-|  14 Oct    | #14 [Middle Of Linked List](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list) |     GFG     |  Algo    |  Easy   |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/FindMiddleLinkedList/FindLink.cpp)
-|  13 Oct    | #13 [Sort Stack](https://practice.geeksforgeeks.org/problems/sort-a-stack/1)            |     GFG     |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/Sorted%20Stack/SortedStack.cpp)
-|  13 Oct    | #12 [Intermediate Smaller](https://practice.geeksforgeeks.org/problems/immediate-smaller-element1142/1)| GFG|  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/Immediate%20Small%20Ele%20/InterSmall.cpp)
+|  17 Oct    | #15 [Array Manipulation](https://www.hackerrank.com/challenges/crush/problem)           |  HackerRank |  Problem |  Hard      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Array%20Manipalation/ArrManipulation.cpp)
+|  14 Oct    | #14 [Middle Of Linked List](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list) |GeekForGeeks |  Algo              |  Easy   |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/FindMiddleLinkedList/FindLink.cpp)
+|  13 Oct    | #13 [Sort Stack](https://practice.geeksforgeeks.org/problems/sort-a-stack/1)            |   GeekForGeeks     |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/Sorted%20Stack/SortedStack.cpp)
+|  13 Oct    | #12 [Intermediate Smaller](https://practice.geeksforgeeks.org/problems/immediate-smaller-element1142/1)| GeekForGeeks |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/Immediate%20Small%20Ele%20/InterSmall.cpp)
 |  13 Oct    | #11 [Min Stack](https://leetcode.com/problems/min-stack/)                               | Leetcode    |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Min%20Stack/MinStack.cpp)
 |  07 Oct    | #10 [Same Tree](https://leetcode.com/problems/same-tree/)                               | Leetcode    |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Same%20Tree/SameTree.cpp)
-|  04 Oct    | #09 [Sqrt(x)](https://leetcode.com/problems/sqrtx)                        | Leetcode    |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Sqrt(x)/Sqrt.cpp)
+|  04 Oct    | #09 [Sqrt(x)](https://leetcode.com/problems/sqrtx)                                      | Leetcode    |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Sqrt(x)/Sqrt.cpp)
 |  03 Oct    | #08 [Serch Insert Position](https://leetcode.com/problems/search-insert-position)       | Leetcode    |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Search%20Insert%20Position/serchInPos.cpp)
 |  01 Oct    | #07 [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                   | Leetcode    |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/LeetCode/Climbing%20Stairs/Solution.cpp)
 |  01 Oct | #06 [Insert Node At Nth](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list)| HackerRank  |  Algo |  Easy    |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Insert%20At%20Nth%20Position/Solution.cpp)
