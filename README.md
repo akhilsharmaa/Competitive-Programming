@@ -19,6 +19,7 @@ GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)
 
 | Date       |           Question                                                                      |  Platform   | Category | Difficulty | solve         
 |------------|-----------------------------------------------------------------------------------------|-------------|----------|------------|--------------------
+|  18 Oct    | #15 [Delete Nth Node](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem)|  HackerRank |  Problem |  Easy |[code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Delete%20A%20Node/DeleteANode.cpp)
 |  17 Oct    | #15 [Array Manipulation](https://www.hackerrank.com/challenges/crush/problem)           |  HackerRank |  Problem |  Hard      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Array%20Manipalation/ArrManipulation.cpp)
 |  14 Oct    | #14 [Middle Of Linked List](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list) |GeekForGeeks |  Algo              |  Easy   |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/FindMiddleLinkedList/FindLink.cpp)
 |  13 Oct    | #13 [Sort Stack](https://practice.geeksforgeeks.org/problems/sort-a-stack/1)            |   GeekForGeeks     |  Algo    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/GeekForGeeks/Sorted%20Stack/SortedStack.cpp)
