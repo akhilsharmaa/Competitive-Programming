@@ -9,16 +9,17 @@ GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)
 
 |  Rank        |   Platform    | Category
 |--------------|---------------|-----------------------
-|  #1 ⭐       |   LeetCode    | Data-Structure 
 |  #3 ⭐       |   HackerRank  | Problem Solving 
 |  #3 ⭐       |   HackerRank  | C++ Language
 |  #3 ⭐       |   HackerRank  | Java Language 
+|  #1 ⭐       |   LeetCode    | Data-Structure 
 
 
 <h2> OCT 2021</h2>  
     
 | Date       |           Question                                                                                                   |  Platform     | Category | Difficulty | solve         
 |------------|--------------------------------------------------------------------------------------------------------------------- |---------------|----------|------------|--------------------
+|  18 Oct    | #18 [Compare Two List](https://www.hackerrank.com/challenges/compare-two-linked-lists/problem)                       |  HackerRank   |  List    |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Compare%202%20LList/compare2LL.cpp)
 |  18 Oct    | #18 [Reverse Linked List](https://www.hackerrank.com/challenges/reverse-a-linked-list/)                              |  HackerRank   |  D-S     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Reverse%20a%20linked%20list/ReverseLl.cpp)
 |  18 Oct    | #17 [Print In Reverse](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem) |  HackerRank   |  D-S     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Print%20In%20Reverse%20LL/PrintRevLList.cpp)
 |  18 Oct    | #16 [Delete Nth Node](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem)                |  HackerRank   |  D-s     |  Easy      |  [code](https://github.com/akhilsharmaa/Daily-Practice-QA/blob/master/HackerRank/Delete%20A%20Node/DeleteANode.cpp)
