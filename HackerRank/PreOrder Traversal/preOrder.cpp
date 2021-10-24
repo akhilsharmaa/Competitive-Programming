@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+class Node {
+    public:
+     int data;
+     Node *left;
+     Node *right;
+     Node(int d) {
+         data = d;
+         left = NULL;
+         right = NULL;
+     }
+};
+
+ void preOrder(Node *root) {
+    if (root == NULL){
+        return;
+    }
+    
+    std:: cout<< root ->data << " ";
+
+    preOrder(root ->left);
+    preOrder(root ->right);
+
+}
+
+int main(){
+
+    
+
+
+   return 0;
+}
