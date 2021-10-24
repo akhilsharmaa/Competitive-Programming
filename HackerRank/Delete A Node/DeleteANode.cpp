@@ -9,20 +9,32 @@ class SinglyLinkedListNode {
 
 // ACCEPTED :) 
 SinglyLinkedListNode* deleteNode(SinglyLinkedListNode* llist, int position) {
+    
+    if(llist == NULL)
+        return llist;
 
-    SinglyLinkedListNode *temp = llist;
+    SinglyLinkedListNode *current = llist;
 
-    int i = 0;
-    while (i <= position){
-        temp  = temp->next;
-        i ++;
+    // We have to remove the head of ll
+    if(position == 0)
+    {
+        current = llist->next;
+        free(llist);
+        return current;
     }
 
-    temp -> next = (temp->next) ->next;
+    while(current != NULL && position > 1)
+    {
+        position--;
+        current = current->next;
+    }
 
-    delete temp;
+    if(current == NULL) return llist; 
 
-    
+    SinglyLinkedListNode *next = current->next->next;
+    free(current->next);
+    current->next = next; 
+    return llist;
 }
 
 
