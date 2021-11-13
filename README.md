@@ -12,9 +12,9 @@ GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)
 |  #3 ⭐       |   HackerRank  | Problem Solving 
 |  #3 ⭐       |   HackerRank  | C++ Language
 |  #3 ⭐       |   HackerRank  | Java Language 
-|  #1 ⭐       |   LeetCode    | Data-Structure 
+|  #2 ⭐       |   LeetCode    | Data-Structure 
 
-
+<!--
 <h2> OCT 2021</h2>  
     
 | Date       |           Question                                                                                                               |  Platform     | Category | Difficulty | solve         
@@ -45,8 +45,7 @@ GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)
 
 
 
-<!--//////////////////////////////////////////////////////////////// SEPTEMBER ////////////////////////////////////////////////////////////////////////////  -->
-<h2> SEP 2021 </h2> 
+<!--//////////////////////////////////////////////////////////////// SEPTEMBER ////////////////////////////////////////////////////////////////////////////  --><!-- <h2> SEP 2021 </h2> 
 
 | Date    |           Question                                                                                 |  Platform   | Category | Difficulty | solve      
 |---------|----------------------------------------------------------------------------------------------------|-------------|----------|------------|------------
@@ -89,3 +88,4 @@ GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)
 
 
 <p align="center">I have created this repository on Sep-2021.</p>
+ -->
