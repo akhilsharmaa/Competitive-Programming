@@ -13,7 +13,7 @@ class Node {
      }
 };
 
-// ACEEPTED :) 5 Points
+// ACCEPTED :) 5 Points
 void postOrder(Node *root) {
 
     if (root == NULL){
