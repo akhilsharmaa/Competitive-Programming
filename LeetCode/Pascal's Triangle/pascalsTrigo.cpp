@@ -1,32 +1,33 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// ACCEPTED :) 
 
-// Working on my machine only
+/* 
+     1 
+    1 1 
+   1 2 1 
+  1 3 3 1 
+ 1 4 6 4 1 
+
+*/
 
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
         
-        vector<vector<int>> vec = {{1}, {1,1},{1,2,1}};
+        vector<vector<int>> r(numRows);
 
-        // Edge Cases 
-        if (numRows == 1) return {{1}};
-        if (numRows == 2) return {{1,1}};
-        if (numRows == 3) return {{1,2,1}};
-         
+        for (int i = 0; i < numRows; i++){
+            r[i].resize(i +1);
+            r[i][0] = r[i][i] = 1;
 
-        for (int i = 2; i < numRows - 1; i++){
-
-            vector<int> temp;
-            temp.push_back(1);
-            for (int j = 0; j <= i; j++){
-                temp.push_back(vec[i][j] + vec[i][j + 1]);
+            for (int j = 1; j < i; j++){
+                r[i][j] = r[i -1][j -1] + r[i - 1][j];
             }
-            vec.push_back(temp);
-        }
-
-        return vec;
+        }   
+        
+        return r ;
     }
 };
 
