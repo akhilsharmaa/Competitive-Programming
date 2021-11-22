@@ -13,55 +13,76 @@ class Node {
      }
 };
 
-map<Node*, int> dist;
+// ACCEPTED :) 
+void topView(Node* root) {
+    // hd: horizontal distance
+    std::queue<std::pair<Node*, int>> Q;  // <Node*, hd>
+    std::map<int, int> map;               // <hd, data>
 
-void travel(Node * root, int n){
-    if (root->left != NULL){
-        dist[root->left] = n-1;
-        travel(root->left , n-1);
+    Q.push({root, 0});
+
+    while (not Q.empty()) {
+      const auto& node = Q.front().first;
+      const auto& data = node->data;
+      const auto& left = node->left;
+      const auto& right = node->right;
+      const auto& hd = Q.front().second;
+      Q.pop();
+
+      if (not map.count(hd)) map[hd] = data;
+
+      if (left) Q.push({left, hd - 1});
+      if (right) Q.push({right, hd + 1});
     }
-    if (root->right != NULL){
-        dist[root->right] = n+1;
-        travel(root->right , n+1);
-    }
-    return;
+
+    for (const auto& x : map) std::cout << x.second << ' ';
+    std::cout << '\n';
 }
 
-void topView(Node * root) {
-    if(root == NULL) return;
-    travel(root, 0); // TRAVEL 
 
-    map<int, int> view;
-    view[0]= root->data;
+int main(){
 
-    queue<Node*> q;
-    q.push(root);
+            /* THE STRUCTURE OF TREE 
+                    
+                         _____101____                   // LEVEL 0 
+                        /            \           
+                       /              \
+                     102              103               // LEVEL 1
+                    /   \            /   \
+                   /     \          /     \
+                  /       \        /       \
+                 104     105      106      107          // LEVEL 2 
+                /   \    /  \     /  \     /  \
+               108 109  110 111  112 113  114 115       // LEVEL 3
+                
+            */
+    
+    // Level 0 
+    Node *root = new Node(101);
 
-    while (!q.empty()){
-        Node* curr = q.front();
-        q.pop();
+    // Level 1
+    root -> left = new Node(102);
+    root -> right = new Node(103);
 
-        if(curr) cout << " "<< curr -> data;
+    // Level 2
+    root -> left -> left= new Node(104);
+    root -> left -> right = new Node(105);
+    root -> right -> left= new Node(106);
+    root -> right -> right = new Node(107);
 
-        if(curr -> left != NULL) {
-            int k = dist[curr->left];
-            if (view.count(k)== 0){
-                view[k]== curr  ->left ->data;
-            }
-            q.push(curr ->left);
-        }
-        if(curr -> right != NULL) {
-            int k = dist[curr->right];
-            if (view.count(k)== 0){
-                view[k]== curr  ->right ->data;
-            }
-            q.push(curr ->right);
-        }
-    }
+    // Level 3 : Left Root
+    root -> left -> left -> left = new Node(108);
+    root -> left -> left -> right = new Node(109);
+    root -> left -> right -> left = new Node(110);
+    root -> left -> right ->right = new Node(111);
+    // Level 3 : Right Root
+    root -> right -> left -> left = new Node(112);
+    root -> right -> left -> right = new Node(113);
+    root -> right -> right -> left = new Node(114);
+    root -> right -> right -> right = new Node(115);
 
-    for (auto i : view)
-        cout<< i.second << " ";
-    return;
+    topView(root);
 
+
+    return 0;
 }
-
