@@ -10,7 +10,7 @@ using namespace std;
     # 
 */
 
-void pattern1TODO:(int n, int i){
+void pattern1(int n, int i){
     if (n > i){
         cout << "# "; 
         pattern1(n, i + 1);
@@ -21,9 +21,28 @@ void pattern1TODO:(int n, int i){
 }
 
 
+/*  Print the pattern 2  
+    # 
+    # # 
+    # # # 
+    # # # # 
+    # # # # # 
+*/
+
+void pattern2(int n, int i){
+    if (n > i){
+        pattern2(n, i + 1);
+        cout << "# ";
+    }else{
+        cout<<endl;
+        pattern2(n - 1, i + 1);
+    }
+}
+
+ 
 int main(){
    
-   pattern1(6, 0);
+   pattern2(6, 0);
 
    return 0;
 }
