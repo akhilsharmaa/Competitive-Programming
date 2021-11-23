@@ -34,7 +34,7 @@ void pattern2(int n, int i){
         pattern2(n, i + 1);
         cout << "# ";
     }else{
-        cout<<endl;
+        // cout<<endl;
         pattern2(n - 1, i + 1);
     }
 }
@@ -42,7 +42,8 @@ void pattern2(int n, int i){
  
 int main(){
    
-   pattern2(6, 0);
+    // pattern2(6, 0);  
+    cout<< "hii";
 
-   return 0;
+    return 0;
 }
