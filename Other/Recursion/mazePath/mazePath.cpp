@@ -1,6 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/* Similar problem of 
+Leetcode : https://leetcode.com/problems/unique-paths/ 
+
+find all paths to go to the end of (n x m) matrix.   
+ */
+
+// 
 
 int totalPaths = 0;
 void mazePath(int i, int j, int n, int m, string osf){
