@@ -19,21 +19,28 @@ long long binpow_recursive(long long a, long long b) {
 
 
 // Iterative approach
-// long long binpow_iterative(long long a, long long b) {
-
-    
-// }
+long long binpow_iterative(long long a, long long b) {
+    long long res = 1;
+    while (b > 0) {
+        if (b & 1)
+            res = res * a;
+        a = a * a;
+        b >>= 1;
+    }
+    return res;
+}
 
 
 int main(){
    
    int a = 2, b = 16;
-   cout << "Find "  << a << "^" << b  << " ?" << endl;
+   cout << "Find "  << a << "^" << b  << " ?";
 
-
-
-   cout << "Recursive Solution: " 
+   cout << "\nRecursive Solution: " 
         << binpow_recursive(a , b);
+
+   cout << "\nIterative Solution: " 
+        << binpow_iterative(a , b);
 
    return 0;
 }
