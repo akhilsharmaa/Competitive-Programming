@@ -33,14 +33,21 @@ long long binpow_iterative(long long a, long long b) {
 
 int main(){
    
+
+   // Power Function O(log n)
    int a = 2, b = 16;
-   cout << "Find "  << a << "^" << b  << " ?";
+   cout <<"\n-------------------------------"
+        << "\nFind "  << a << "^" << b  << " ?";
 
    cout << "\nRecursive Solution: " 
         << binpow_recursive(a , b);
 
    cout << "\nIterative Solution: " 
-        << binpow_iterative(a , b);
+        << binpow_iterative(a , b)
+        << "\n-------------------------------";
+
+
+    // 
 
    return 0;
 }
