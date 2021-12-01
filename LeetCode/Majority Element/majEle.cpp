@@ -6,23 +6,24 @@ class Solution {
 public:
     int majorityElement(vector<int>& nums) {
         
-        // Un-Ordered Map 
-        unordered_map <int, int> mp;
+       int maxElement = nums[0];
+       int elementCount = 1;
+       int size = nums.size();
 
-        int numSize = nums.size(); // Arr Size
-        for (int i  = 0;  i < numSize; i++)
-            mp[nums[i]]++; 
-        
-        int largest = 0, toReturn;
+       for (int i = 1; i < size; i++){
 
-        for (auto i = mp.begin() ; i != mp.end(); i++){
-            if(i->second > largest){
-                largest = i-> second;
-                toReturn = i-> first;
-            }
-        }
-        
-        return toReturn;
+           if (nums[i] == maxElement){
+               elementCount++;
+           }else {
+               elementCount--;
+               if (elementCount == 0){
+                    maxElement = nums[i];
+                    elementCount = 1;
+               }
+           }
+       }
+    
+        return maxElement;
     }
 };
 
