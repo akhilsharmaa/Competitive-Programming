@@ -5,25 +5,41 @@ using namespace std;
 
 void solution(){
    
-    int n, m;
-    // n = hills | m = valley
-    cin >> n >> m;
-    
-    int maxMN = m + n + 2;
-    cout << maxMN << "\n";
+    int hill , valley;
+    cin >> hill >> valley;
 
-    for (int i = 0; i < maxMN; i++){
+    if(hill > valley){
 
-        if (i % 2 == 0){
-            cout << "0";
-        }else {
-            cout << "1";
-        }    
-    }cout << "\n";
-    
+        cout << ( 2 * (valley + 1) + (3 * (hill - valley))) << "\n";
 
+        for (int i = 0; i <= valley; i++)
+            cout << "10";
+        
+        for (int i = 0; i < hill - valley; i++)
+            cout << "010";
+        
+        // Hills equals valley 
+    }else if(hill == valley){
+        
+        cout << ( 2 * (valley + 1)) << "\n";
+        for (int i = 0; i <= valley; i++){
+            cout << "10";
+        }
+    }else {
+        
+        cout << ( 2 * (hill + 1) + (3 * (valley - hill))) << "\n";
+
+        for (int i = 0; i <= hill; i++)
+            cout << "01";
+        
+        for (int i = 0; i < valley - hill; i++)
+            cout << "101";
+    }
+
+    cout << "\n";
 }
 
+        
 // Ignored by Online Judges
 void setUp_ForLocalMachine(){
 
