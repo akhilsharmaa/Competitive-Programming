@@ -3,40 +3,48 @@ typedef long long ll;
 
 using namespace std;
 
+// Valleys and Hills
+// problem link : https://www.codechef.com/DEC21C/problems/VANDH
+// ACCEPTED :) 100% 
+
 void solution(){
    
-    int hill , valley;
-    cin >> hill >> valley;
+    int N  , M  ;
+    cin >> N  >> M  ;
 
-    if(hill > valley){
+    string ans = "";
 
-        cout << ( 2 * (valley + 1) + (3 * (hill - valley))) << "\n";
-
-        for (int i = 0; i <= valley; i++)
-            cout << "10";
-        
-        for (int i = 0; i < hill - valley; i++)
-            cout << "010";
-        
-        // Hills equals valley 
-    }else if(hill == valley){
-        
-        cout << ( 2 * (valley + 1)) << "\n";
-        for (int i = 0; i <= valley; i++){
-            cout << "10";
+    if(N  == M  ){
+        for (int i = 0; i <  N +1 ; i++){
+            ans += "01";
         }
-    }else {
-        
-        cout << ( 2 * (hill + 1) + (3 * (valley - hill))) << "\n";
-
-        for (int i = 0; i <= hill; i++)
-            cout << "01";
-        
-        for (int i = 0; i < valley - hill; i++)
-            cout << "101";
     }
 
-    cout << "\n";
+
+    else if( M > N ){
+        for (int i = 0; i < N + 1; i++)
+            ans += "10";
+        
+        for (int i = 0; i < M - N -1; i++){
+            ans += "110";
+        }
+
+        ans+= "1";
+
+    }else {
+        // N > M
+
+        for (int i = 0; i < M; i++){
+            ans += "01";
+        }
+        
+        for (int i = 0; i < N - M ; i++){
+            ans += "010";
+        }
+    }
+
+    cout << ans.size() << "\n";
+    cout << ans << "\n";
 }
 
         
