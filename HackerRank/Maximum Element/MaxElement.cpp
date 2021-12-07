@@ -5,8 +5,7 @@ using namespace std;
 stack<int> mainStack; 
 stack<int> maxStack; 
 
-//ACCPETed : 5 testcase fail :( out of 28 testcase 
-
+//ACCEPTED :)  SCORED : 20
 
 void pushElement(int x){
     mainStack.push(x);
@@ -16,48 +15,51 @@ void pushElement(int x){
         return;
     }
 
-    if(x > maxStack.top()){
+    if(mainStack.top() > maxStack.top()){
         maxStack.push(x);
+    }else {
+        maxStack.push( maxStack.top());
     }
 
 }
 
 void deleteElement(){
     
-    
-    if(mainStack.size() == 0){
-        return;
+    if(!mainStack.empty()){
+       mainStack.pop();
     }
 
-    
-    if(mainStack.top() == maxStack.top()){
-        mainStack.pop();
+    if(!maxStack.empty()){
         maxStack.pop();
-    }else {
-        mainStack.pop();
     }
+
 }
 
 void solution(){
 
    
-   int operation;
+   ll operation;
    cin >> operation;
    
     if(operation == 1){
         int x;
         cin >> x;
         pushElement(x);
+        // cout << "pushed: " << x << " | ";
     }  // Push the element x into the stack.
 
     else if(operation == 2){
         deleteElement();
+        // cout << "deleted: " ;
     } // Delete the element present at the top of the stack.
     
     else if(operation == 3){
-      cout <<  maxStack.top() << endl;
+        if(!maxStack.empty()){
+            cout <<  maxStack.top() << endl;
+        }
     }
 
+    // cout << endl;
 }
 
 
@@ -84,9 +86,10 @@ void setUp_ForLocalMachine(){
  int main(){
 //    setUp_ForLocalMachine();
 
-   int testCase;
+   ll testCase;
    cin >> testCase;
-   for(int _i = 0; _i < testCase; _i++){
+   for(ll _i = 0; _i < testCase; _i++){
+    //    cout << "t = " << _i << " | ";
         solution();
    }
 
