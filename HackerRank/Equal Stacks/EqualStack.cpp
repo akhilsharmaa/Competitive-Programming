@@ -1,52 +1,49 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int equalStacks(vector<int> h1, vector<int> h2, vector<int> h3) {
-
-    stack<int> s1, s2 ,s3 ;
-    int s1Height = 0, s2Height = 0, s3Height = 0;
-
-    for (int i = h1.size()-1; i >= 0; i--){
-        s1Height += h1[i];
-        s1.push(s1Height);
-    }
-    for (int i = h2.size()-1; i >= 0; i--){
-        s2Height += h2[i];
-        s2.push(s2Height);
-    }
-    for (int i = h3.size()-1; i >= 0; i--){
-        s3Height += h3[i];
-        s3.push(s3Height);
-    }
-
-    while (1){
-        if (s1.empty() || s1.empty() || s3.empty()) return 0;
-
-        s1Height = s1.top();
-        s2Height = s2.top();
-        s3Height = s3.top();
-         
-        if (s1Height == s2Height && s2Height ==  s3Height)
-            return s1Height;
-
-        if (s1Height >= s2Height && s1Height >= s3Height ){
-            s1.pop();
-        }else if (s2Height >= s1Height && s2Height>= s3Height ){
-            s2.pop();
-        }else s3.pop();
-    }
-
-    return 0;
-}
-
-
 int main(){
-
-    vector<int> h1 = {3, 2, 1, 1, 1};
-    vector<int> h2 = {4, 3, 2};
-    vector<int> h3 = {1, 1, 4, 1};
-
-    cout<< equalStacks(h1 , h2, h3)<<endl;
-
-   return 0;
+    int n1;
+    int n2;
+    int n3;
+    cin >> n1 >> n2 >> n3;
+    int h1 = 0, h2 = 0, h3 = 0; // heights of the 3 stacks
+    vector<int> tower1(n1);
+    for(int i = 0; i < n1; i++){
+       cin>>tower1[i];
+       h1 += tower1[i];
+    }
+    vector<int> tower2(n2);
+    for(int i = 0; i < n2; i++){
+       cin>>tower2[i];
+       h2 += tower2[i];
+    }
+    vector<int> tower3(n3);
+    for(int i = 0; i < n3; i++){
+       cin>>tower3[i];
+       h3 += tower3[i];
+    }
+    // Use a greedy approach, always remove cylinders from the tallest tower until all towers
+    // have the same height.
+    bool equalHeight = false;
+    if(h1 == h2 && h2 == h3) {
+        equalHeight = true;
+    }
+    int r1 = 0, r2 = 0, r3 = 0; // Store the indices of which cylinder to remove
+    while(!equalHeight) {
+        if(h1 >= h2 && h1 >= h3) {
+            h1 -= tower1[r1];
+            r1++;
+        } else if(h2 >= h1 && h2 >= h3) {
+            h2 -= tower2[r2];
+            r2++;
+        } else if(h3 >= h1 && h3 >= h2) {
+            h3 -= tower3[r3];
+            r3++;
+        }
+        if((h1 == h2 && h2 == h3) || (h1 == 0 && h2 == 0 && h3 == 0)) {
+            equalHeight = true;
+        }
+    }
+    cout<<h1;
+    return 0;
 }
