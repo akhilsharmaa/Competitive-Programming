@@ -2,7 +2,7 @@
 
     
 ### My profile ID/Link : 
-HackerRank [@akhlisharmaa](https://www.hackerrank.com/akhilsharmaa)     
+HackerRank [@akhilsharmaa](https://www.hackerrank.com/akhilsharmaa)     
 LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)      
 GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)  
 CodeChef [@akhilsharmaa](https://www.codechef.com/users/akhilsharmaa)     
@@ -15,6 +15,7 @@ Codeforces [@akhilsharmaa](https://codeforces.com/profile/akhilsharmaa)
 |  #3 ⭐       |   HackerRank  | C++ Language
 |  #3 ⭐       |   HackerRank  | Java Language 
 |  #2 ⭐       |   LeetCode    | Data-Structure 
+|  #2 ⭐       |   CodeChef    | Competitive-Programming
 
 <!--
 <h2> OCT 2021</h2>  
