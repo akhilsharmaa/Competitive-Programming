@@ -5,11 +5,13 @@
 HackerRank [@akhlisharmaa](https://www.hackerrank.com/akhilsharmaa)     
 LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)      
 GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)
+CodeChef [@akhilsharmaa](https://www.codechef.com/users/akhilsharmaa)
+Codeforces [@akhilsharmaa](https://codeforces.com/profile/akhilsharmaa)
 
 
 |  Rank        |   Platform    | Category
 |--------------|---------------|-----------------------
-|  #3 ⭐       |   HackerRank  | Problem Solving 
+|  #5 ⭐       |   HackerRank  | Problem Solving 
 |  #3 ⭐       |   HackerRank  | C++ Language
 |  #3 ⭐       |   HackerRank  | Java Language 
 |  #2 ⭐       |   LeetCode    | Data-Structure 
