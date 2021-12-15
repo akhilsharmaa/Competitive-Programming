@@ -4,10 +4,10 @@
 ### My profile ID/Link : 
 HackerRank [@akhlisharmaa](https://www.hackerrank.com/akhilsharmaa)     
 LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)      
-GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)
-CodeChef [@akhilsharmaa](https://www.codechef.com/users/akhilsharmaa)
-Codeforces [@akhilsharmaa](https://codeforces.com/profile/akhilsharmaa)
-
+GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)  
+CodeChef [@akhilsharmaa](https://www.codechef.com/users/akhilsharmaa)     
+Codeforces [@akhilsharmaa](https://codeforces.com/profile/akhilsharmaa)     
+  
 
 |  Rank        |   Platform    | Category
 |--------------|---------------|-----------------------
