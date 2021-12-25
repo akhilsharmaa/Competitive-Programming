@@ -2,7 +2,9 @@
 #include <vector>
 using namespace std;
 
-// Brute force 
+// Runtime: 44 ms, faster than 25.26% of C++ online submissions for Median of Two Sorted Arrays.
+// Memory Usage: 90.6 MB, less than 6.34% of C++ online submissions for Median of Two Sorted Arrays.
+
 class Solution {
 public:
     vector<int> mergeArr(vector<int>& nums1, vector<int>& nums2, vector<int>& merged){
@@ -48,8 +50,8 @@ public:
 
 int main(){
 
-    vector<int> num1 = {1, 2};
-    vector<int> num2 = {3, 4};
+    vector<int> num1 = {};
+    vector<int> num2 = {};
 
     Solution s;
     double returns =  s.findMedianSortedArrays(num1 , num2);
