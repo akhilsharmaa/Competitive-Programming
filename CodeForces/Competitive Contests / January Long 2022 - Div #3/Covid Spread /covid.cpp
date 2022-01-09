@@ -1,53 +1,45 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Partially - Accepted 
+// CORRET_ANSWER 100%
 
 // user-defined
 #define ll long long int
 #define pb push_back
 #define MOD 1000000007
-#define vt vector
-
-int power(ll x, ll y){
-    ll temp;
-    if( y == 0)
-        return 1;
-    temp = power(x, y / 2);
-    if (y % 2 == 0)
-        return temp * temp;
-    else
-        return x * temp * temp;
-}
-
-int High(ll d){
-    d -= 10;
-
-    ll m = 1024;
-
-    for (int i = 0; i < d ; i++){
-        m *= 3;
-    }
-    
-    return m;
-}
+#define vt vector 
 
 void solution(){
     
-    ll p, d;
-    cin >> p >> d;
-    
-    ll infected = infected = power(2, d);
-    if(d > 10){
-        infected = High(d);
-    }
+    int t;
+    cin >> t;
+    while(t--) {
+        int n,days;
+        ll sum=1;
+        cin >> n >> days;
+        for (int i = 1; i <= days; i++){
+            
+            if (i<=10) {
+                sum*=2;
+                if(sum>n){
+                    sum = n;
+                    break;
+                }
+            }
+            else{
+                sum*=3;
+                if(sum>n){
+                    sum = n;
+                    break;
+                }
+            }
+            
+        }
+    cout << sum << endl;
+}
 
-    
-    if(p <= infected){
-        cout << p << "\n";
-    }else {
-        cout << infected << "\n";
-    }
+
+
 }
 
 // Ignored by Online Judges
@@ -73,11 +65,6 @@ void setUp_ForLocalMachine(){
 int main(){
     setUp_ForLocalMachine();
     
-    int testCase;
-    cin >> testCase;
-    
-    while(testCase--){
     solution();
-    }
     return 0;
 }
