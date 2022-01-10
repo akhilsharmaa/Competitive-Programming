@@ -8,37 +8,23 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
+/* 
+Runtime: 67 ms, faster than 25.85% of C++ online submissions for Intersection of Two Linked Lists.
+Memory Usage: 14.6 MB, less than 30.46% of C++ online submissions for Intersection of Two Linked Lists.
+*/
 
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        ListNode *curA = headA, *curB = headB;
-        ListNode *begin = nullptr, *tailA = nullptr, *tailB = nullptr;
-        while (curA && curB) {
-            if (curA == curB) {
-                begin = curA;
-                break;
-            }
-   
-            if (curA->next) {
-                curA = curA->next;
-            } else if (!tailA) {
-                tailA = curA;
-                curA = headB;
-            } else {
-                break;
-            }
+        
+        ListNode *tempA = headA ;
+        ListNode *tempB = headB ;
 
-            if (curB->next) {
-                curB = curB->next;
-            } else if (!tailB) {
-                tailB = curB;
-                curB = headA;
-            } else {
-                break;
-            }
+        while (tempA != tempB){
+            tempA = tempA != nullptr ? tempA ->next : headB;
+            tempB = tempB != nullptr ? tempB ->next : headA;
         }
         
-        return begin;
+        return tempA;
     }
 };
