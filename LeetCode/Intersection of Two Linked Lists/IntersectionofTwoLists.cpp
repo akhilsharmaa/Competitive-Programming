@@ -8,55 +8,37 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
+
 class Solution {
 public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode *curA = headA, *curB = headB;
+        ListNode *begin = nullptr, *tailA = nullptr, *tailB = nullptr;
+        while (curA && curB) {
+            if (curA == curB) {
+                begin = curA;
+                break;
+            }
+   
+            if (curA->next) {
+                curA = curA->next;
+            } else if (!tailA) {
+                tailA = curA;
+                curA = headB;
+            } else {
+                break;
+            }
 
-    int findLength(ListNode *headA){
-    
-    int length = 0;   
-    ListNode *temp = headA;
-    while (temp -> next != NULL){
-        length++;
-        temp = temp->next;
-    }
-    return length;
-    }
-
-ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-    
-    int ALength = findLength(headA), BLength = findLength(headB);
-    int diff = max(ALength, BLength) -  min(ALength, BLength);
-
-    ListNode *toSkipTemp , *notSkipped;
-    if(ALength > BLength){
-        toSkipTemp = headA;
-        notSkipped = headB;
-    }else{
-        toSkipTemp = headB;
-        notSkipped = headA;
-    }
-    
-    for (int i = 0; i < diff && toSkipTemp != NULL; i++){
-        toSkipTemp =  toSkipTemp ->next;
-    }   
-
-    while (toSkipTemp ->next != NULL && notSkipped ->next != NULL){
-
-        if(toSkipTemp == notSkipped){
-            return toSkipTemp;
+            if (curB->next) {
+                curB = curB->next;
+            } else if (!tailB) {
+                tailB = curB;
+                curB = headA;
+            } else {
+                break;
+            }
         }
-
-        toSkipTemp =  toSkipTemp ->next;
-        notSkipped =  notSkipped ->next;
+        
+        return begin;
     }
-    
-    return new ListNode(0);
-    }
-
 };
-
-
-int main(){
-    
-    return 0;
-}
