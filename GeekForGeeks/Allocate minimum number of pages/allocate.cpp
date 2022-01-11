@@ -1,56 +1,52 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Concept is prooper but not working 
+// SOLVED AND ACCEPTED :)
 
 class Solution 
 {
     public:
-    bool isValid(int A[], int N, int M, int maxPages){  
-        int students = 1;
-        int sum = 0;
+    //Function to find minimum number of pages.
+    bool isPossible(int arr[], int n, int m, int minPages){
+    int studentsRequired = 1;
+    int sum = 0;
 
-        for (int i = 0; i < N; i++) {
-            sum = sum + A[i];
-            
-            if(sum > maxPages){
-                sum = A[i];
-                students++;
-            }   
+    for (int i = 0; i < n; i++){
+        if (arr[i] > minPages)
+            return false;
 
-            if(students > M){
+        if (sum + arr[i] > minPages){
+            studentsRequired++;
+            sum = arr[i];
+
+            if (studentsRequired > m)
                 return false;
-            }
         }
-
+        else sum += arr[i];
+    }
         return true;
     }
 
-    //Function to find minimum number of pages.
-    int findPages(int A[], int N, int M) {
-        
-        if( N < M) return -1;
+    // function to find minimum pages
+    int findPages(int arr[], int n, int m){
+        if (n < m)  return -1;
 
         long long sum = 0;
-        for (int i = 0; i < N; i++) sum += A[i]; 
-        
-        int start = A[N-1], end = sum;
-        int result = -1;
+        for (int i = 0; i < n; i++)  sum += arr[i];
+
+        int start = 0, end = sum;
+        int result = INT_MAX;
 
         while (start <= end){
-            
-            int mid = start + end /2;
-
-            if(isValid(A, N, M, mid)){
-                result = min(result, mid);
-                end = mid - 1 ;
-            }else {
-                start = mid +1;
-            }   
+            int mid = (start + end) / 2;
+            if (isPossible(arr, n, m, mid)){
+                result = mid;
+                end = mid - 1;
+            }
+            else start = mid + 1;
         }
 
-        cout << result;
-        return result; 
+        return result;
     }
 };
 
