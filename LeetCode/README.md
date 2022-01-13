@@ -2,7 +2,7 @@
   <img  src="https://cdn.icon-icons.com/icons2/2530/PNG/512/leetcode_button_icon_151892.png" alt="Leetcode logo">
 </p>
 
-<h1 align="center"> 😁 Why 
+<h1 align="center"> 🤔 Why 
   <a href="https://leetcode.com/akhilsharmaa/">Leetcode </a> ?
 </h1>
   
