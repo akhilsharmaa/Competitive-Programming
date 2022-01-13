@@ -1,4 +1,7 @@
-<h2 align="center"> Daily update of Problems, I solve with Question with solution Code <a href="https://github.com/akhilsharmaa/Daily-Practice-QA">Links</a></h2>
+<h2 align="center">Accepted Solution Code I solved on  <a href="https://github.com/akhilsharmaa/Daily-Practice-QA">Diffrent Platform.</a></h2>
+<p align="center">
+  <img  src="https://www.nicepng.com/png/full/266-2666972_software-developer.png" height="400" alt="Leetcode logo">
+</p> 
 
     
 ### My profile ID/Link : 
