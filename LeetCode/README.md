@@ -1,20 +1,6 @@
-<!-- <p align="center">
-  <img  src="https://cdn.icon-icons.com/icons2/2530/PNG/512/leetcode_button_icon_151892.png" alt="Leetcode logo">
-</p> -->
-
-<p align="center">
-  <img  src="https://jasonchiucc.com/wp-content/uploads/2021/03/1.jpg" alt="Leetcode logo">
-</p>
-
-<h1 align="center"> 🤔 Why 
-  <a href="https://leetcode.com/akhilsharmaa/">Leetcode </a> ?
-</h1>
-  
-*  LeetCode questions are often asked at FAANG. 
-*  Great Web UI. 
-*  Best for testing algorithmic skills.
-
-<br> 
+ <p>
+  <img  src="https://cdn.icon-icons.com/icons2/2530/PNG/512/leetcode_button_icon_151892.png" height="100" alt="Leetcode logo">
+</p> 
 
 
 ## 5️ things I learned ✌🏻 after solving Leetcode
