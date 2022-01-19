@@ -4,7 +4,7 @@ using namespace std;
 
 void PermuteString(int i, int n, string input , string output, vector<string> &result){
     
-    if(i >= n -1){
+    if(i >= n){
         result.push_back(output);
         return;
     }
@@ -12,11 +12,6 @@ void PermuteString(int i, int n, string input , string output, vector<string> &r
     string op1 = output;
     string op2 = output;
 
-    if(isdigit(input[i])){
-        op1.push_back(input[i]);
-        op2.push_back(input[i]);
-        i++;
-    }
 
     op1 += tolower(input[i]);
     op2 += toupper(input[i]);
@@ -28,7 +23,7 @@ void PermuteString(int i, int n, string input , string output, vector<string> &r
 
 int main(){
     
-    string input = "a1b2";
+    string input = "ab";
     string output = "";
     vector<string> result;
 
