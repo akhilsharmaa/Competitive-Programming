@@ -28,7 +28,7 @@ class Solution
     }
 
     //Function to return max value that can be put in knapsack of capacity W.
-    int knapSack(int W, int wt[], int &val[], int n) {
+    int knapSack(int W, int wt[], int val[], int n) {
         
         memset(t, -1, sizeof(t));
         return knapSackHelper(W, wt, val, n);
