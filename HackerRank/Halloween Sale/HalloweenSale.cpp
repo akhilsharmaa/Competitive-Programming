@@ -2,7 +2,7 @@
 using namespace std;
 
 // You have earned 20.00 points!
-int howManyGames(int p_dollar, int d, int m, int s) {
+int Games(int p_dollar, int d, int m, int s) {
     int res = 0;
     while (p_dollar <= s) {
         res++; s -= p_dollar;
@@ -12,12 +12,9 @@ int howManyGames(int p_dollar, int d, int m, int s) {
 }
 
 int main() {
-    int p;
-    int d;
-    int m;
-    int s;
+    int p, d, m, s;
     cin >> p >> d >> m >> s;
-    int answer = howManyGames(p, d, m, s);
-    cout << answer << endl;
+    int answer = Games(p, d, m, s);
+    cout << answer << "\n";
     return 0;
 }
