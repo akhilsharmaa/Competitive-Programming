@@ -5,6 +5,8 @@ using namespace std;
 #define pb push_back
 #define MOD 1000000007
 #define vt vector
+#define py cout << "YES" << endl;
+#define pn cout << "NO" << endl;
 
 int main(){
 
@@ -13,26 +15,21 @@ cin >> testCase;
    
    while(testCase--){
       
-      // Taking INPUT Array
-      int n; cin >> n;
-      vector<ll> arr(n);
-      for (ll i = 0; i < n; i++)
-      cin >> arr[i]; // input-values
-      
+       // Taking INPUT Array
+       int n; cin >> n;
+       vector<int> arr(n);
+       for (int i = 0; i < n; i++)
+       cin >> arr[i]; // input-values
 
-      ll maxnum = INT_MIN;
-      ll minnum = INT_MAX;
-
-      // Print Ouput of Arr-Vector 
-      for (int i = 0; i < n; i++){
-         maxnum = max(maxnum, arr[i]);
-         minnum = min(minnum, arr[i]);
-      }
-
-      if(maxnum == minnum){
-          cout << 0 << "\n";
-      }else
-      cout << (maxnum - 1) - (minnum + 1) << "\n"; 
+       ll sum = 0;
+       for (int j = 0; j < n; j++){
+           sum += arr[j];
+       }
+       
+       if((sum % n == 0)){
+           cout<< 0 <<"\n";
+       }else
+           cout<< 1 <<"\n";
 
    }
 
