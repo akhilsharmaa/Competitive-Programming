@@ -4,3 +4,5 @@ output.txt
 /Practice
 .vscode/
 .cph/
+.vscode
+!.vscode/launch.json
