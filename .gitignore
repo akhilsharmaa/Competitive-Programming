@@ -4,5 +4,7 @@ output.txt
 /Practice
 .vscode/
 .cph/
-.vscode
-!.vscode/launch.json
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sw*
