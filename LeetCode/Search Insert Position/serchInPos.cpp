@@ -29,6 +29,20 @@ public:
 };
 
 
+  /* 
+ __________________________________________
+ |                                        |
+ |  If this code helps you ;)             |
+ |                                        |
+ |  Please give a STAR                    |
+ |  & FOLLOW_ME on Github                 |
+ |                                        |
+ |  ID - @akhilsharmaa                    |
+ |                                        |
+ |  C++ CODE BY AKHILESH                  |
+ |________________________________________|
+ */
+
 int main(){
 
     vector<int> a = {1, 2, 3 ,14 ,35 ,36, 38, 42, 54, 65, 76};

@@ -23,14 +23,8 @@ public:
                 }
                 count += arr[i] - arr[i-1] - 1;
             }
-            // cout << i << " -> " << count << endl;
-            
-            // if(count >= k){
-            //     return arr[i] + (count-k);
-            // }
         }
         
-        //count < k
         return arr.back() + (k-count);  
 
     }
@@ -55,19 +49,25 @@ public:
             }
         }
 
-        // vector<int>::iterator ite;  //ite is a pointer 
-
-        // cout<< "Print via iterator : " ; 
-        // for (ite= missingArr.begin(); ite!= missingArr.end(); ite++){  
-        //     cout<<*ite<<", ";
-        // } cout<< endl;
-    
-
-
         return missingArr[k]; 
     }
 };
 
+
+
+  /* 
+ __________________________________________
+ |                                        |
+ |  If this code helps you ;)             |
+ |                                        |
+ |  Please give a STAR                    |
+ |  & FOLLOW_ME on Github                 |
+ |                                        |
+ |  ID - @akhilsharmaa                    |
+ |                                        |
+ |  C++ CODE BY AKHILESH                  |
+ |________________________________________|
+ */
 
 int main(){
 

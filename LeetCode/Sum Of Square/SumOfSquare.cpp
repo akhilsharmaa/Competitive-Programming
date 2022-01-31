@@ -37,6 +37,20 @@ public:
 };
 
 
+  /* 
+ __________________________________________
+ |                                        |
+ |  If this code helps you ;)             |
+ |                                        |
+ |  Please give a STAR                    |
+ |  & FOLLOW_ME on Github                 |
+ |                                        |
+ |  ID - @akhilsharmaa                    |
+ |                                        |
+ |  C++ CODE BY AKHILESH                  |
+ |________________________________________|
+ */
+
 // Given a non-negative integer c, decide whether there're two integers a and b such that a2 + b2 = c.
 int main(){
     Solution s ;

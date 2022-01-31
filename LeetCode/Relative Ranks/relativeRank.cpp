@@ -39,17 +39,17 @@ public:
     }
 };
 
-int main(){
 
-    Solution s;
-    vector<int> a= {1}; 
-    vector<string> rseult = s.findRelativeRanks(a);
-    
-    cout<< "RETURNED : ";
-    for (auto i : rseult){
-        cout << i << ", ";
-    }cout<< endl;
-    
-
-   return 0;
-}
+  /* 
+ __________________________________________
+ |                                        |
+ |  If this code helps you ;)             |
+ |                                        |
+ |  Please give a STAR                    |
+ |  & FOLLOW_ME on Github                 |
+ |                                        |
+ |  ID - @akhilsharmaa                    |
+ |                                        |
+ |  C++ CODE BY AKHILESH                  |
+ |________________________________________|
+ */
