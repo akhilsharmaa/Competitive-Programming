@@ -7,6 +7,20 @@ using namespace std;
 #define MOD 1000000007
 #define vt vector
 
+  /* 
+ __________________________________________
+ |                                        |
+ |  If this code helps you ;)             |
+ |                                        |
+ |  Please give a STAR                    |
+ |  & FOLLOW_ME on Github                 |
+ |                                        |
+ |  ID - @akhilsharmaa                    |
+ |                                        |
+ |  C++ CODE BY AKHILESH                  |
+ |________________________________________|
+ */
+
 // Solution of 1621A - Stable Arrangement of Rooks
 // Accepted
 

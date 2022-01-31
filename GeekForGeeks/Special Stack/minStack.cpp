@@ -47,6 +47,22 @@ int getMin(stack<int> &s){
     return mi; // Your code goes here ==>O(1)  and O(1) TIME AND SPACE
 }
 
+
+
+  /* 
+ __________________________________________
+ |                                        |
+ |  If this code helps you ;)             |
+ |                                        |
+ |  Please give a STAR                    |
+ |  & FOLLOW_ME on Github                 |
+ |                                        |
+ |  ID - @akhilsharmaa                    |
+ |                                        |
+ |  C++ CODE BY AKHILESH                  |
+ |________________________________________|
+ */
+
 int main()
 {
 

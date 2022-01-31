@@ -21,6 +21,21 @@ void PermuteString(int i, int n, string input , string output, vector<string> &r
 
 }
 
+
+  /* 
+ __________________________________________
+ |                                        |
+ |  If this code helps you ;)             |
+ |                                        |
+ |  Please give a STAR                    |
+ |  & FOLLOW_ME on Github                 |
+ |                                        |
+ |  ID - @akhilsharmaa                    |
+ |                                        |
+ |  C++ CODE BY AKHILESH                  |
+ |________________________________________|
+ */
+
 int main(){
     
     string input = "ab";
