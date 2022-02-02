@@ -5,69 +5,72 @@ using namespace std;
 #define pb push_back
 #define MOD 1000000007
 #define vt vector
-#define py cout << "YES" << endl;
-#define pn cout << "NO" << endl;
+#define pYes cout << "YES" << endl;
+#define pNo cout << "NO" << endl;
 
-  /* 
- __________________________________________
- |                                        |
- |  If this code helps you ;)             |
- |                                        |
- |  Please give a STAR                    |
- |  & FOLLOW_ME on Github                 |
- |                                        |
- |  ID - @akhilsharmaa                    |
- |                                        |
- |  C++ CODE BY AKHILESH                  |
- |________________________________________|
- */
+// ACCEPTED :) 
 
-int main(){
-
-int testCase;
-cin >> testCase;
+void solve(){
+    
    
-while(testCase--){
-  
-    //* Taking INPUT Array
+    // Taking INPUT Array
     int n; cin >> n;
     vector<int> arr(n);
     for (int i = 0; i < n; i++)
     cin >> arr[i]; // input-values
     
+    
+    ll fromRight = INT_MAX, fromLeft = INT_MAX, fromBoth = INT_MAX;
 
-    int maxi = INT_MIN, max_ind = 0;
-    for (int i = 0; i < n ; i++){
-        if(arr[i] > maxi){
-            max_ind = i;
-        }
-        maxi = max(arr[i], maxi);
-    }
-        
+    // Left
+    ll max_val = INT_MIN,min_val = INT_MAX;
+    ll max_index = 0, min_index = 0;
 
-    int mini = INT_MAX, min_ind = 0;
-    for (int i = 0; i < n ; i++){
-        if(arr[i] < mini){
-            min_ind = i;
+    // From Left 
+    for (ll i = 0; i < n; i++){
+        if(arr[i] > max_val){
+            max_index = i;
+            max_val = arr[i];
         }
-        mini = min(arr[i], maxi);
+        if(arr[i] < min_val){
+            min_index = i;
+            min_val = arr[i];
+        }
     }
+    
+    fromLeft = max(max_index, min_index) + 1;
+    fromRight = n - (min(max_index, min_index));
+
+
+    // From Both 
+    fromBoth = 
+        (n - max(max_index, min_index)) + 
+        (min(max_index, min_index) + 1);
+
+
+
+    cout << min(fromBoth, min(fromLeft, fromRight)) << '\n';
+}
+
+
+int main(){
+
+ // For Faster Output
+   ios_base:: sync_with_stdio(false);
+   cin.tie(NULL);
+
+   int tCase;
+   cin >> tCase;
    
-    
-    ll mFrom_left = max(min_ind, max_ind);
-    ll mFrom_right = max(n - min_ind,n - max_ind);
+   while(tCase--){
+       solve();
+   }
 
-    ll left = min(min_ind, max_ind);
-    ll right = min(n - min_ind,n - max_ind);
-    
-    ll mFrom_Both = left+ right;
-
-    // cout << "ml= " <<  mFrom_left << " | mr = " << mFrom_right << " mb = " << mFrom_Both << "\n";
-
-
-    cout << min(mFrom_Both, min(mFrom_left, mFrom_right)) << "\n";
-
+   return 0;
 }
 
-return 0;
-}
+/* 
+   AUTHOR- 🇦​​​​​🇰​​​​​🇭​​​​​🇮​​​​​🇱​​​​​🇪​​​​​🇸​​​​​🇭​​​​​  🇸​​​​​🇭​​​​​🇦​​​​​🇷​​​​​🇲​​​​​🇦​​​​​
+   ID - @akhilsharmaa
+*/
+
