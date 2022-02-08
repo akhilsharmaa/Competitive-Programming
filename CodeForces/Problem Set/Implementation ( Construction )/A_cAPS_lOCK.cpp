@@ -8,28 +8,30 @@ using namespace std;
 #define pYes cout << "YES" << endl;
 #define pNo cout << "NO" << endl;
 
-
+// 131A - cAPS lOCK ACCEPTED 
 
 void solve(){
     
-    ll n, m;
-    cin >> n >> m;
+    string s;
+    char u;
+    bool c = true;
+    cin >> s;
 
-    ll cnt = 0;
-    while (n <= m){
-        
-        if(m % n == 0){
-            n *= 2;
-        }else if(n == m){
-            cout << cnt ;
-            return;
-        }else {
-            n *= 3;
+    for(int i = 1; i < s.length(); i++) {
+        if(islower(s[i])) {
+            c = false;
         }
-        cnt ++;
     }
-    
-    cout << "-1";
+
+    if(c == true) {
+        for(int j = 0; j < s.length(); j++) {
+            if(islower(s[j])) u = toupper(s[j]);
+            else u = tolower(s[j]);
+            cout << u;
+        }
+    }
+
+    else cout << s;
 }
 
 
@@ -38,8 +40,9 @@ int main(){
  // For Faster Output
    ios_base:: sync_with_stdio(false);
    cin.tie(NULL);
-
+   
        solve();
+
 
    return 0;
 }
