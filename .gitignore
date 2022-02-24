@@ -1,7 +1,8 @@
 input.txt
 output.txt
 /Learnings
-/Practice
+/Practice-UnTracked
+/UnTracked
 .vscode/
 .cph/
 # Ignore IDE specific files
