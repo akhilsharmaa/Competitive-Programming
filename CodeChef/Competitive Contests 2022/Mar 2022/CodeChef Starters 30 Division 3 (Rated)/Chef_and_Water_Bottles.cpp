@@ -15,26 +15,23 @@ using namespace std;
 
 
 void solve(){
-     
-   string str; cin >> str;
-
-   map<char, int> mp; 
-   map <int, int> :: iterator it;
-
-   for (int i = 0; i < str.length(); i++){
-       mp[str[i]]++;
-   }
     
-   int cnt =  0;
-   for (auto &&it : mp){
-      if(it.second == 1) {
-        cnt++;
-      }
+   ll n, x, k;
+    cin >> n >> x >> k;
+
+    ll t = n * x;
+
+    ll ans = k  -t;
+
+    if(k >= t){
+        cout << n << endl;
+    }else if(k < x){
+        cout << 0 << endl; 
+    }else {
+        cout << k / x << endl;
     }
 
-    if(cnt == 0) cnt = -1;
-    cout << cnt << endl;
-    // cout << cnt <<endl;
+    
 }
 
 
