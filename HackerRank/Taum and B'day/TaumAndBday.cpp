@@ -2,11 +2,7 @@
 using namespace std;
 
 #define ll long long int
-#define pb push_back
-#define MOD 1000000007
-#define vt vector
-#define py cout << "YES" << endl;
-#define pn cout << "NO" << endl;
+// aum and B'day
 
 int main(){
 
@@ -15,15 +11,17 @@ cin >> testCase;
    
    while(testCase--){
       
-       int b_req, w_req;
-       int bc, wc, z;
-
-       cin >> b_req >> w_req;
-       cin >> bc >> wc >> z;
-
-        ll ans = ( b_req * min(wc, bc)) + (w_req * min(wc, bc));
-        cout << ans << "\n";
-       
+       unsigned long long b,w,x,y,z;
+        std::cin >> b >> w 
+            >> x >> y >> z;
+        
+        if (x+z < y) {
+            std::cout << x*b + (x+z)*w << std::endl;
+        } else if (y+z < x) {
+            std::cout << (y+z)*b + y*w << std::endl;
+        } else {
+            std::cout << x*b + y*w << std::endl;
+        }
    }
 
    return 0;
