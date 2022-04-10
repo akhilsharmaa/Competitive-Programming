@@ -25,7 +25,7 @@ void solve()
     }
 
     sort(arr, arr + n);
-    k = min(k, n-1);
+    k = min(k, n);
 
     cout << arr[k] << endl;
 }

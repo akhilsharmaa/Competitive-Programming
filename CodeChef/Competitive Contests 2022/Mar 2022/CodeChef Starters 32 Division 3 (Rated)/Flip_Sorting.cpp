@@ -1,4 +1,4 @@
-/* 
+/*
    Author - @akhilsharmaa
    C++ code by Akhilesh Sharma
 */
@@ -9,35 +9,43 @@ using namespace std;
 #define pb push_back
 #define MOD 1000000007
 #define vt vector
-#define For(i,j,n) for(int i=(j);i<((int)n);++i)
-#define pYes cout << "YES" << endl; 
-#define pNo cout << "NO" << endl; 
 
+void solve()
+{
 
-void solve(){
-    
-   ll n;
-   string s;
-   cin >> n >> s; 
-
-    
-    
+        int n;
+		cin>>n;
+		string s;
+		cin>>s;
+		vector<vector<int>>v;
+		for(int i=n-1;i>=0;i--){
+			if(s[i]=='0'){
+				int z=i+1;
+				for(int j=0;j<=i;j++){
+					if(s[j]=='1'){
+						s[j]='0';
+					}
+					else{
+						s[j]='1';
+					}
+				}
+				v.push_back({1ll,z});
+			}
+		}
+		int p=v.size();
+		cout<<p<<endl;
+		for(auto val:v){
+			cout<<val[0]<<" "<<val[1]<<endl;
+		}
 }
 
+int main()
+{
 
-int main(){
-
- // For Faster Output
-   ios_base:: sync_with_stdio(false);
-   cin.tie(NULL);
-
-   int tCase;
-   cin >> tCase;
-   
-   while(tCase--){
-       solve();
-   }
-
-   return 0;
+    int t;
+    cin >> t;
+    while (t--)
+        solve();
+    
+    return 0;
 }
-
