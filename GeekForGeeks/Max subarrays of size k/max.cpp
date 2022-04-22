@@ -9,16 +9,13 @@ class Solution
     vector <int> max_of_subarrays(int *arr, int n, int k){
 
         vector<int> res;
-        for (int i = k-1; i < n; i++){
-
-            int j = 0, maxi = INT_MIN;
-            while (j < k){
-                maxi = max(arr[i - j],maxi);
-                j++;
-            }
-
-            res.push_back(maxi);
-        }
+        // int maxi = INT_MIN, i;
+        // for (i = 0; i < k; i++)
+        //     maxi = max(arr[i], maxi);
+        
+        // queue<int> que; 
+        // que.push(maxi);
+        // res.push_back(maxi);
         
         return res;
     }
