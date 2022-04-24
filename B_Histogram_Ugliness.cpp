@@ -1,63 +1,42 @@
-/* 
+/*
    Author - @akhilsharmaa
    C++ code by Akhilesh Sharma
 */
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ll long long int
+#define lli long long int
 
-int findUgNess(vector<int> &arr , int n ){
+using ll = long long;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
 
-    ll ugNess = 0;
+//  ACCEPTED :) 
 
-    // left-side
-    for (int i = 1; i < n; i++){
-        ugNess += max(0,arr[i] - arr[i-1]);
-    }
+const int MN = 4e5 + 2;
+ll arr[MN];
 
-    // left-side
-    for (int i = n-2; i >= 0; i--){
-        ugNess += max(0,arr[i] - arr[i+1]);
-    }
-    
-    ugNess += arr[0] + arr[n-1];
-
-    return ugNess;
-}
-
-void solve(){
-    
-    // Taking INPUT Array
-    int n; cin >> n;
-    vector<int> arr(n);
-    
-    for (int i = 0; i < n; i++)
-    cin >> arr[i]; // input-values
-
-    ll ugNess = findUgNess(arr, n);
-
-    for (int i = 0; i < n; i++){
-        ll diff1 = arr[i] - arr[i+1];
-        ll diff2 = arr[i] - arr[i-1];
-
-        if(diff1 > 0 && diff2 > 0){
-            ll comm = min(diff1, diff2);
-            ugNess -= comm;
-        }
-    }
-
-    cout << ugNess << endl;
-}
-
-
-int main(){
-
+int main()
+{
     cin.tie(NULL);
     ios_base::sync_with_stdio(false);
-
-    int t; cin >> t;
-    while(t--)solve();
-
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        arr[n + 1] = 0;
+        for (int i = 1; i <= n; i++)
+            cin >> arr[i];
+        ll ans = 0;
+        for (int i = 1; i <= n; i++)
+        {
+            ll should = min(arr[i], max(arr[i - 1], arr[i + 1]));
+            ans += arr[i] - should + abs(should - arr[i - 1]);
+            arr[i] = should;
+        }
+        printf("%lli\n", ans + arr[n]);
+    }
     return 0;
 }
