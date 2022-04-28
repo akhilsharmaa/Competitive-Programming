@@ -5,27 +5,24 @@ using namespace std;
 #define ll long long int
 #define MOD 1000000007
 
-// Recursive Approach
+// Dynamic Approach
 class Solution{
     public:
     /* Function to count the number of ways in which 
         frog can reach the top. */
-
-    int cnt = 0;
-
-    void helper(int n){
-
-        if(n == 0)cnt++;
-        if(n < 0)return;
-
-        helper(n-1);
-        helper(n-2);
-        helper(n-3);
-    }
-
     long long countWays(int n){
-        helper(n);
-        return cnt;
+
+        if(n == 0)return 1;
+        if(n == 1|| n == 2) return n;
+
+        ll dp[n+1];
+        dp[0] = 1, dp[1] = 2, dp[2] =4;
+
+        for (int i = 3; i <= n; i++){
+            dp[i] = (dp[i-1] + dp[i-2] + dp[i-3] ) % MOD;
+        }
+
+        return dp[n-1];
     }
 };
 
