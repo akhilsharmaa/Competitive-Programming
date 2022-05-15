@@ -1,17 +1,11 @@
-<h2 align="center">Accepted Solution Code I solved on  <a href="https://github.com/akhilsharmaa/Daily-Practice-QA">Diffrent Platform.</a></h2>
-<p align="center">
-  <img  src="https://www.nicepng.com/png/full/266-2666972_software-developer.png" height="400" alt="Leetcode logo">
-</p> 
+<h1 align="center">Hi 👋, Welcome in CP world.</h1>
+
+### Profile badge
+ [![Badge](https://cp-logo.vercel.app/codechef/akhilsharmaa)](https://www.codechef.com/users/pankajcoder1) [![Badge](https://cp-logo.vercel.app/codeforces/akhilsharmaa)](https://codeforces.com/profile/akhilsharmaa)  [![Badge](https://cp-logo.vercel.app/atcoder/Pankajcoder1)](https://atcoder.jp/users/Pankajcoder1)
 
     
-### My profile ID/Link : 
--  HackerRank [@akhilsharmaa](https://www.hackerrank.com/akhilsharmaa) 
-    -  #5 ⭐  Problem Solving 
-    -  #3 ⭐  C++ Language
-    -  #3 ⭐  Java Language     
--  LeetCode [@akhilsharmaa](https://leetcode.com/akhilsharmaa/)    
-    - #2 ⭐  Data-Structure  
--  CodeChef [@akhilsharmaa](https://www.codechef.com/users/akhilsharmaa)     
-   - #2 ⭐  Competitive-Programmer   
--  Codeforces [@akhilsharmaa](https://codeforces.com/profile/akhilsharmaa)     
--  GeekForGeeks [@akhilsharmaa](https://auth.geeksforgeeks.org/user/akhilsharmaa)  
+## Some Useful Problemset
+- [CSES](https://cses.fi/problemset/)
+- [Timus](https://acm.timus.ru/problemset.aspx)
+- [Leetcode](https://leetcode.com/problemset/all/)
+- [Spoj](https://www.spoj.com/problems/classical/)
