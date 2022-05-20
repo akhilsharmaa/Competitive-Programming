@@ -16,8 +16,8 @@ using namespace std;
 
 void solve(){
     
-   
-    
+   // Taking INPUT Array
+  
 }
 
 
@@ -28,8 +28,27 @@ int main(){
    ios_base::sync_with_stdio(false);
 
    int t = 0; cin >> t;
-   while(t--)
-     solve();
+   while(t--){
+
+        int n = 0, bits[32] ={}; 
+        cin >> n;
+        
+        for (int i = 0; i < n; i++){
+            ll a, j = 0;
+            cin >> a;
+            while (a!=0){
+                if(bits[j]==0) bits[j] = a%2; 
+                a=a/2;
+                j++;
+            }
+        }
+
+            ll res = 0;
+            for (int i = 0; i < 32; i++){
+            res = res+ bits[i];
+            }
+            cout << res << endl; 
+   }
 
    return 0;
 }
