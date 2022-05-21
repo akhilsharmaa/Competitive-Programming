@@ -17,20 +17,21 @@ using namespace std;
 void solve(){
     
     ll n, i =0;
-    string str;
-    cin >> n >> str;
+    string s;
+    cin >> n >> s;
 
-    n--;
-    ll cnt = 0;
+    ll ans = 0,cnt=0;
 
-    while (i < n){
-        if(str[i] != str[n]){
-            cnt ++;
+    for (int i = 0; i < n/2; i++){
+        if(s[i]!= s[n-i-1]){
+            cnt++;
         }
-        i++, n--;
     }
 
-    cout << cnt << endl;
+    if(cnt%2==0)ans = cnt/2;
+    else ans = cnt/2 + 1;
+
+    cout << ans << endl;
 }
 
 
