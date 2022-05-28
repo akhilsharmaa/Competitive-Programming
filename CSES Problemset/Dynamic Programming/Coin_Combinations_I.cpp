@@ -11,24 +11,28 @@ using namespace std;
 #define pb           push back
 #define no           cout<<"NO"<<endl;
 #define yes          cout<<"YES"<<endl;
+#define MOD          1000000007;
 #define loop(i,a,b)  for(int i=(a);i<=b;++i)
 #define all(V)       (V).begin(),(V).end()
 #define printv(v)    for(auto&&i:v)cout<<i<<' ';
 
 
-void solve(){
+void solve(vt<int> v, ll k){
+ 
+   vt<ll> dp(k+1, 0);
+   dp[0] = 1;
 
-   
-   // Taking INPUT Array
-   ll n = 0, x; 
-   cin >> n >> x;
-   vector<ll> v(n);
-     
-   for (int i = 0; i < n; i++)
-   cin >> v[i]; // input-values
-   
-   
+   ll n = v.size();
 
+   for (ll i = 1; i <= k; i++){
+      for (ll j = 0; j < n; j++){
+         if(v[j]> i) continue;
+            dp[i] = (dp[i] + dp[i - v[j]]) % MOD;
+      }
+   }
+
+//    printv(dp);
+   cout << dp[k];
 }
 
 int main(){
@@ -37,12 +41,16 @@ int main(){
    ios_base::sync_with_stdio(false);
    cin.tie(NULL);
 
-   int t = 1; 
-   
+     // Taking INPUT Array
+     ll n = 0, k = 0; 
+     cin >> n >> k;
+     vector<int> v(n);
+     
+     for (int i = 0; i < n; i++)
+     cin >> v[i]; // input-values
 
-   while(t--){
-     solve();
-   }
+     solve(v, k);
+
 
    return 0;
 }

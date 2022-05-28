@@ -11,6 +11,7 @@ using namespace std;
 #define pb           push back
 #define no           cout<<"NO"<<endl;
 #define yes          cout<<"YES"<<endl;
+#define MOD          1000000007;
 #define loop(i,a,b)  for(int i=(a);i<=b;++i)
 #define all(V)       (V).begin(),(V).end()
 #define printv(v)    for(auto&&i:v)cout<<i<<' ';
@@ -18,10 +19,20 @@ using namespace std;
 
 void solve(){
 
-	loop(i, 0, 5){
-		cout << i << " ";
-	}cout << "\n";
+   ll n; cin >> n;
+   vt<ll> dp(n+1, 0);
 
+   dp[0] = 1;
+
+   for (int i = 1; i <= n + 1; i++){
+      for (int j = 1; j <= 6; j++){
+         if(j>i)break;
+         dp[i] = (dp[i] + dp[i-j]) % MOD;
+      }
+   }
+
+   // printv(dp);
+   cout << dp[n];
 }
 
 int main(){
@@ -30,12 +41,9 @@ int main(){
    ios_base::sync_with_stdio(false);
    cin.tie(NULL);
 
-   int t = 1; 
-   cin >> t;
 
-   while(t--){
      solve();
-   }
+
 
    return 0;
 }
