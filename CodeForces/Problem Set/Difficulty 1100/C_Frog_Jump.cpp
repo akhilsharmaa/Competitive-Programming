@@ -14,19 +14,30 @@ using namespace std;
 #define loop(i,a,b)  for(int i=(a);i<=b;++i)
 #define debug(x)     cout<<#x<<" "<<x<<"\n";
 
+// SOLVED & ACCEPTED :)
 
 void solve(){
 
-   int n = 0;
-   cin >> n;
-
-   int v[n];
-
-   loop(i, 0, n-1){
-      cin >> v[i] ;
-   };
    
-   
+	string str = "R", temp;
+	cin >> temp;
+   str += temp + "R";
+
+	int n = str.length();	
+
+	int lastR = n, maxi = 0;
+
+	for (int i = n; i >= 0; --i){
+		if(str[i] == 'R'){
+			maxi = max(maxi, lastR - i);
+         lastR = i;
+		}
+	}
+
+   ll ans = maxi;
+   if (ans == 0) ans = n + 1;
+
+   cout << ans << "\n";
 }
 
 
@@ -55,11 +66,13 @@ int main(){
    // Faster IO & FileIO
    setupMachine();
 
-   int t = 1; 
+   int t = 6; 
    
    cin >> t;
    while(t--){
-     solve();
+
+   		solve();
+
    }
 
    return 0;
