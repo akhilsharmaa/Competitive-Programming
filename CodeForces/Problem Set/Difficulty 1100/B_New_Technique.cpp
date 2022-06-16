@@ -12,37 +12,37 @@ using namespace std;
 #define pNo          cout<<"NO"<<endl;
 #define pYes         cout<<"YES"<<endl;
 #define loop(i,a,b)  for(int i=(a);i<=b;++i)
-#define debug(x)     cout<<#x<<" "<<x<<" ";
+#define debug(x)     cout<<#x<<" "<<x<<"\n";
 
+bool isSame(int a[], int b[], int m){
+
+
+	return true;
+}
 
 void solve(){
 
-   int n = 0;
-   cin >> n;			
-   vector<int> v(n);
+   ll n, m;
+   cin >> n >> m;
 
-   bool flag = true;
-   int k = 0;
+   int row[n][m], col[m][n];
 
-   for (int i = 0; i < n; ++i){
-   		cin >> v[i];
-   		if(flag && v[i] ==1){
-   			k ++;
-   		}else flag = 0;
-   }
+   for (int i = 0; i < n; ++i)
+	 for(int j = 0; j < m; ++j){
+	 	cin >> row[i][j];
+	 }
 
-
-    if(k == n){
-    	if(k % 2 == 0) cout << "Second\n";
-    	else cout << "First\n";
-    	return;
-    }
+   
+   for (int i = 0; i < m; ++i)
+	 for(int j = 0; j < n; ++j)
+	   	cin >> col[i][j];
 
 
-    if(k % 2 == 0 ) cout << "First\n";
-    else cout << "Second\n";
+   	for (int i = 0; i < n; ++i){
+   		
+	}
 
- }
+}
 
 
 // Ignored by Online Judges
