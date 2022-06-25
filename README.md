@@ -1,12 +1,16 @@
-<h1 align="center">Hi 👋, Welcome in CP world.</h1>
+
+
+### What is this repository ? 
+- The Problems i have solved. You can find here.
+- I maintaining this repo since 1st yr of my college.
+
+Main Motive of this repo: 
+- to creating a place where i can see all my solution.
+- to see my growth in term of code quality, logics.
+
 
 ### Profile badge
 ![Badge](https://cp-logo.vercel.app/codechef/akhilsharmaa)
 ![Badge](https://cp-logo.vercel.app/codeforces/akhilsharmaa)
 ![Badge](https://cp-logo.vercel.app/leetcode/akhilsharmaa)
 
-## Some Useful Problemset
-- [CSES](https://cses.fi/problemset/)
-- [Timus](https://acm.timus.ru/problemset.aspx)
-- [Leetcode](https://leetcode.com/problemset/all/)
-- [Spoj](https://www.spoj.com/problems/classical/)
