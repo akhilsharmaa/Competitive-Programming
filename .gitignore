@@ -9,3 +9,4 @@ output.txt
 .idea/
 .vscode/
 *.sw*
+.DS_Store
