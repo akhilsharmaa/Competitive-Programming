@@ -13,12 +13,7 @@ const ll MOD = 1e9 + 7;
 
 void solve(){
      
-    ll a, b;
-    cin >> a >> b;
     
-    ll c = a & b;
-
-    cout << (a^c) + (b^c) << endl;
      
 }
 

@@ -13,13 +13,22 @@ const ll MOD = 1e9 + 7;
 
 void solve(){
      
-    ll a, b;
-    cin >> a >> b;
+    int n = 0; cin >> n;
+    vector<int> v(n);
     
-    ll c = a & b;
+    for (int i = 0; i < n; i++)
+        cin >> v[i];
+    
+    sort(v.begin(), v.end());
+    cout << v[n-1];
 
-    cout << (a^c) + (b^c) << endl;
-     
+    ll k = 0;
+    for (int i = 0; i < n; i++){
+        v[i] = v[i] ^ v[n-1];
+        k = v[i] | k;
+    }
+
+    cout << " " << k << endl; 
 }
 
 
