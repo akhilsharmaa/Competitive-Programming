@@ -1,5 +1,5 @@
-inputf.in
-outputf.in
+input.txt
+output.txt
 /Learnings
 /Practice-UnTracked
 /UnTracked
@@ -10,3 +10,5 @@ outputf.in
 .vscode/
 *.sw*
 .DS_Store
+inputf.*
+outputf.*
