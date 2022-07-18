@@ -10,28 +10,20 @@ using namespace std;
 #define printv(v)    for(auto&&i:v)cout<<i<<' ';cout<<endl;
 #define fast         cin.tie(NULL);ios_base::sync_with_stdio(false);
 #define debug(n)     cerr <<#n<<" = "<<n<<endl;
-#define loop(i, j)   for (int a=i;a<=j;++i)
 const ll MOD = 1e9 + 7;
 
 
 void solve(){
      
-	
-    // Taking INPUT Array
-    int n = 0; 
-    cin >> n;
-    vector<int> pos, neg;
-      
-    for (int i = 0; i < n; i++){
-        int inp;
-        cin >> inp; 
-        if(inp > 0)pos.pb(inp);
-        else neg.pb(inp);
-    }
-     
-      
-     
-    cout << "NO\n";
+    ll a, b, k=0;
+    cin >> a >> b;
+    
+    long long g = abs(a-b);
+    long long m = min(a%g, g-a%g);
+
+    if(a == b) g = 0, m = 0;
+
+    cout << g << "  " << m <<endl;
 }
 
 

@@ -10,28 +10,32 @@ using namespace std;
 #define printv(v)    for(auto&&i:v)cout<<i<<' ';cout<<endl;
 #define fast         cin.tie(NULL);ios_base::sync_with_stdio(false);
 #define debug(n)     cerr <<#n<<" = "<<n<<endl;
-#define loop(i, j)   for (int a=i;a<=j;++i)
 const ll MOD = 1e9 + 7;
 
 
 void solve(){
      
-	
-    // Taking INPUT Array
-    int n = 0; 
-    cin >> n;
-    vector<int> pos, neg;
+    ll n, q;
+    
+    cin >> n >> q;
+    map<ll, pair<ll, ll>> mp;
       
-    for (int i = 0; i < n; i++){
-        int inp;
-        cin >> inp; 
-        if(inp > 0)pos.pb(inp);
-        else neg.pb(inp);
+    for (int i=1; i<=n; ++i){
+    	ll inp; cin >> inp;
+    	if(!mp.count(inp)) mp[inp].first = i, mp[inp].second = i;
+    	else  mp[inp].second = i;
     }
-     
-      
-     
-    cout << "NO\n";
+    
+    
+    for (int i = 0; i < q; ++i){
+    	ll a, b;
+    	cin>> a >> b;
+    	
+    	if(!mp.count(a) or !mp.count(b) or mp[a].first > mp[b].second)
+    		cout << "NO\n";
+    	else
+    		cout << "YES\n";
+    }
 }
 
 

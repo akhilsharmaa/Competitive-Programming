@@ -1,7 +1,5 @@
-/* 
-   Author - @akhilsharmaa
-   C++ code by Akhilesh Sharma
-*/
+
+/* c++ by Akhilesh Sharma  */
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -9,59 +7,63 @@ using namespace std;
 #define ll           long long int
 #define vt           vector
 #define pb           push_back
-#define pNo          cout<<"NO"<<endl;
-#define pYes         cout<<"YES"<<endl;
-#define loop(i,a,b)  for(int i=(a);i<=b;++i)
-#define debug(x)     cout<<#x<<" "<<x<<"\n";
+#define printv(v)    for(auto&&i:v)cout<<i<<' ';cout<<endl;
+#define fast         cin.tie(NULL);ios_base::sync_with_stdio(false);
+#define debug(n)     cerr <<#n<<" = "<<n<<endl;
+const ll MOD = 1e9 + 7;
 
 
 void solve(){
-
-   int n = 0;
-   cin >> n;
-
-   int v[n];
-
-   loop(i, 0, n-1){
-      cin >> v[i] ;
-   };
-   
-   
-}
-
-
-// Ignored by Online Judges
-void setupMachine(){
-   // For Faster Output
-   ios_base:: sync_with_stdio(false);
-   cin.tie(NULL);
-
-   #ifndef ONLINE_JUDGE
-   // if \"input.txt\" not exist : Create
-   std::ifstream infile("input.txt");
-   if(!infile.good()){
-       ofstream MyFile("input.txt");
-       MyFile << 1; // writing examplcase
+     
+    
+    int n; cin >> n;
+    vector<int> v(n), res;
+      
+    for (int i=0; i<n; ++i)
+       cin >> v[i];
+    
+    
+    sort(v.begin(), v.end());
+    
+    int a = 0, b = n/2;
+    
+    while(a < n/2){
+        res.pb(v[a]), res.pb(v[b]);
+        a++, b++; 
     }
-
-   freopen("input.txt", "r", stdin);
-   freopen("output.txt", "w", stdout);
-   #endif
+    
+    if(n&1) res.pb(v.back());
+    
+   bool flag = true;
+   for (int i = 1; i < n-1; ++i){ 
+      if(res[i] < res[i+1] and res[i] < res[i-1] or res[i] > res[i+1] and res[i] > res[i-1] ){
+      }else flag = false;
+   }
+    
+   if(res[0] > res[n-1] and res[0] > res[n-1] or res[0] < res[n-1] and res[0] < res[n-1]) {
+   }else flag = false;
+    
+    
+   if(!flag)cout << "NO\n";
+   else {
+      cout << "YES\n";
+      printv(res);
+    }
+    
 }
 
 
 int main(){
-   
-   // Faster IO & FileIO
-   setupMachine();
+    
+    fast // Fast-I/O 
 
-   int t = 1; 
-   
-   cin >> t;
-   while(t--){
-     solve();
-   }
+    int t = 0;
+    cin >> t;
 
-   return 0;
+    while(t--)
+        solve();
+
+
+    return 0;
 }
 
