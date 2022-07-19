@@ -15,40 +15,28 @@ const ll MOD = 1e9 + 7;
 
 void solve(){
      
-    // Taking INPUT Array
-	ll n = 0, k= 0; 
-	cin >> n >> k;
-	vector<int> v(n);
-	  
-	for (int i = 0; i < n; i++)
-		cin >> v[i]; // input-values
-	
-	sort(v.begin(), v.end(), greater<int>());
-	
-	for (int i = 1; i < n; ++i)
-		v[i] += v[i-1];
-	
-	while(k--){
-		
-		ll q;
-		cin >> q;
-
-		int le = 0, ri = n-1, ans = -1;;
-		
-		while(le <= ri){
-			
-			ll mid = (ri+le)/2;
-			
-			if(q <= v[mid]){
-				ans = mid+1;
-				ri = mid -1;
-			}else {				
-				le = mid +1;
-			}
-		}
-		
-		cout << ans << endl;
-	}
+    
+    int n; cin >> n;
+    vector<int> a(n);
+      
+    for (int i=0; i<n; ++i)
+    	cin >> a[i];
+    
+    
+    int mn =-1, mx = -1;
+	for (int i = 0; i < n; ++i){
+        if (a[i] == a[i - 1]) {
+            if (mn == -1) {
+                mn = i;
+            }
+            mx = i;
+        }
+    }
+    if (mn == mx) {
+        cout << 0 << '\n';
+    } else {
+        cout << max(1, mx - mn - 1) << '\n';
+    }
 }
 
 
