@@ -6,7 +6,7 @@
 - Motive of this repo is to see my growth in term of *code quality, logics.*
 
 ### Profile badge
-![Badge](https://cp-logo.vercel.app/codechef/akhilsharmaa)
+![Badge](https://cp-logo.vercel.app/codechef/sharmaa)
 ![Badge](https://cp-logo.vercel.app/codeforces/akhilsharmaa)
 ![Badge](https://cp-logo.vercel.app/leetcode/akhilsharmaa)
 
