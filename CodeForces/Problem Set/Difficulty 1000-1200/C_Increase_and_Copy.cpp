@@ -8,8 +8,6 @@ using namespace std;
 #define vt           vector
 #define pb           push_back
 #define endl 		 "\n";	
-#define pYes 		 cout<<"YES\n";	
-#define pNo 		 cout<<"NO\n";	
 #define printv(v)    for(auto&&i:v)cout<<i<<' ';cout<<endl;
 #define fastIO       cin.tie(NULL);ios_base::sync_with_stdio(false);
 #define debug(n)     cerr <<#n<<" = "<<n<<endl;
@@ -18,18 +16,22 @@ using namespace std;
 
 void solve(){
      
-    int n; cin >> n;
-    vector<int> v(n);
-      
-    for (int i=0; i<n; ++i) cin >> v[i];
+    ll n;cin >> n;
     
-    bool ok = false, all = true;
-    for (int i = 1; i < n; ++i){
-    	if(v[i] <= v[i-1])ok= true;
-    	if (v[i] != v[i-1])all = false;
+    ll k = 1, cnt = 0, m = 1;
+    
+    while(k <= n){
+    	
+    	k += m;
+    	cnt++;
+    	
+    	if(k > n)break;
+    	
+    	k += m++;
+    	cnt++;
     }
     
-    cout << (ok or all or n%2==0? "YES\n": "NO\n");	
+    cout << cnt-1 << endl;
 }
 
 
