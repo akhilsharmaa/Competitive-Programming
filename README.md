@@ -2,7 +2,7 @@
 
 ### What is this repository ? 
 - The **Problems I have solved.** You can find here.
-- I'm maintaining this repo since **1st yr of my college.**
+- I'm maintaining this repo since **2nd yr of my college.**
 - Motive of this repo is to see my growth in term of *code quality, logics.*
 
 ### Profile badge
