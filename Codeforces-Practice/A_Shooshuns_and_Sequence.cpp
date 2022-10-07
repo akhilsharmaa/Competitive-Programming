@@ -14,28 +14,36 @@ typedef long double ld;
 #define debugln(n)   cerr <<#n<<":"<<n<<endl;
 #define debug(n)     cerr <<#n<<":"<<n<<' ';
 
-const string upAlpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const string lowAlpha = "abcdefghijklmnopqrstuvwxyz";
 const ll MOD = 1e9 + 7;
 
 
-
-
 void solve(){ 
-
-    int n;
-    string str;
-     
-    cin >> n >> str;
+  
+    int n, k; 
+    cin >> n >> k;
     
-    int zero = n; 
-    for (int i = n-1; str[i] != '\0'; --i){
-      if(str[i] == '0'){
-        zero--;
-      }else break;
+    vector<int> v(n);
+       
+    for(int i=0; i < n; ++i){
+       cin >> v[i];
     }
     
-    cout << zero << endl;
+    bool ok = true;
+
+    for (int i = k-1; i < n-1; ++i){
+      if(v[i] != v[i+1]){ok = false;}
+    }
+    
+    for(int i = k-1; i >= 1; i--){
+      if(v[i] != v[i-1]){break;}
+      k-=1;
+    }
+    
+    if(ok){
+      cout << k -1 << endl;
+    }else cout << -1 << endl;
+  
+
 }
 
 
@@ -51,10 +59,9 @@ int main(){
   #endif
   
   int t = 1;
-  cin >> t;
   
-  while(t--)
-  {
+  
+  while(t--){
     solve();
   }
 
