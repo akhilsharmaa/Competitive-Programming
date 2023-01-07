@@ -1,0 +1,11 @@
+{
+	"scope":"source.c++", 
+	"completions":
+	[
+		{"trigger":"vvi", "contents": "vector<vector<int>>  ${1:vvi}($2 ,($3, vector<int>()));"},
+		{"trigger":"mii", "contents": "map<int,int> ${1:mp};"},
+		{"trigger":"mi", "contents": "multiset<int> ${1:mst};"}
+		{"trigger":"mi", "contents": "multiset<int> ${1:mst};"}
+		
+	]
+}
